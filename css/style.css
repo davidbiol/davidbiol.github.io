@@ -151,8 +151,14 @@ a,
 }
 
 img {
+	max-width: 100%;
+	height: auto;
+}
+
+#logo {
 	max-width: 50%;
 	height: auto;
+	margin-left: 70px;
 }
 
 :focus {
