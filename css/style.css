@@ -1742,7 +1742,7 @@ input[type="radio"] .styled:checked+label::after {
     font-size: 35px;
     font-weight: 600;
     padding: 0;
-    margin: 0;
+    margin-bottom: 35px;
 }
 
 .slider_cont_section h3 {
