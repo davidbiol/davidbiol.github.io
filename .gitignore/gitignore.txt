@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 #Images
 
 *.png
+=======
+images/*.png
+>>>>>>> d00ea8fe6ea792cfa37a2f587501af775d277887
