@@ -240,6 +240,13 @@ button {
 	padding: 0;
 }
 
+.full_team_cont {
+	width: 150%;
+	float: left;
+	margin: -250px;
+	padding: 0;
+}
+
 .blog_blue_bg {
     position: relative;
 }
@@ -1832,6 +1839,35 @@ input[type="radio"] .styled:checked+label::after {
 
 .blog_cont {
     padding-top: 30px;
+}
+
+.blog_cont_team {
+	padding-top:250px;
+}
+
+.blog_cont_team h4 {
+    font-size: 32px;
+    color: #2c2c2d;
+    line-height: 40px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.blog_cont_team h3 {
+    font-size: 50px;
+    color: #2c2c2d;
+    line-height: 50px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.blog_cont_team h5 {
+    color: #79797a;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
 
 .comment_form {
