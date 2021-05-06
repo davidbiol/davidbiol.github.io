@@ -1881,6 +1881,7 @@ input[type="radio"] .styled:checked+label::after {
     font-size: 16px;
     line-height: 25px;
     color: #212222;
+	padding-left: 22px;
 }
 .objectives_cont li {
 	list-style: circle;
