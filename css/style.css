@@ -1870,6 +1870,32 @@ input[type="radio"] .styled:checked+label::after {
     margin-bottom: 10px;
 }
 
+.objectives_cont {
+	padding:50px;
+	width: 50%;
+}
+
+.objectives_cont ul {
+	margin: 0px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #212222;
+}
+.objectives_cont li {
+	list-style: circle;
+}
+
+.objectives_cont h3 {
+    font-size: 38px;
+    color: #141615;
+    line-height: 50px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+
 .comment_form {
 	float: left;
 	width: 100%;
@@ -2139,6 +2165,7 @@ ul.social_icon li a {
     padding: 40px 0px;
     text-transform: uppercase; 
 }
+
 
 
 .contact-bg {
