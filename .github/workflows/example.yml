@@ -6,6 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Decrypt secret
-      run : echo $TO_DO_LIST
-      env: # Or as an environment variable
-        TO_DO_LIST: ${{ secrets.MENSAJE_OCULTO }}
+      run : 
+      if [ "$PASSWORD" == "manizales"]
+      then 
+       echo $LIST
+      env: 
+        PASSWORD: ${{ secrets.MENSAJE_OCULTO }}
+        LIST: ${{ secrets.TO_DO_LIST }}
