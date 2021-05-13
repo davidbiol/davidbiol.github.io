@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Decrypt secret
-      run: 
-        echo $PASSWORD
-      env: 
-        PASSWORD: ${{ secrets.MENSAJE_OCULTO }}
+        run: 
+          echo $PASSWORD
+        env: 
+          PASSWORD: ${{ secrets.MENSAJE_OCULTO }}
