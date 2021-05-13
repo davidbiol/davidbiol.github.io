@@ -9,7 +9,7 @@ jobs:
         run: 
           if [ "$PASSWORD" -eq "manizales"]
           then 
-            echo "yes"
+            echo "$LIST"
           fi
         env: 
           PASSWORD: ${{ secrets.MENSAJE_OCULTO }}
