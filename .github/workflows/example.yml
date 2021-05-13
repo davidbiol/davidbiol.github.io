@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Decrypt secret
       run: 
-        if [ "$PASSWORD" == "manizales"]
+        if [ "$PASSWORD" -eq "manizales"]
         then 
           echo "yes"
         fi
