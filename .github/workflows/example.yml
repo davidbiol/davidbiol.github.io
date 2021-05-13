@@ -1,15 +1,17 @@
-name: Workflows
 on: push
 jobs:
-  job_1:
-    name: To Do List
+  notify-slack:
     runs-on: ubuntu-latest
     steps:
-      - name: Decrypt secret
-        run: 
-          if [ "$PASSWORD" == "manizales"]
-          then
-            echo "yes"
-          fi
-        env: 
-          PASSWORD: ${{ secrets.MENSAJE_OCULTO }}
+      - uses: actions/checkout@v2
+      - uses: secrethub/actions/env-export@v0.2.1
+        env:
+          SECRETHUB_CREDENTIAL: ${{ secrets.MENSAJE_OCULTO }}
+          SLACK_WEBHOOK: secrethub://company/app/slack/webhook
+      - name: Print environment with masked secrets
+        run: printenv
+      - name: Notify Slack
+        # This action expects SLACK_WEBHOOK to be set, which is now done automatically
+        uses: Ilshidur/action-slack@2.0.1
+        with:
+          args: Sent from GitHub Actions with secrets from SecretHub 🔑
