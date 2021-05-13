@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: Decrypt secret
         run: 
-          echo $PASSWORD
+          echo "$PASSWORD"
         env: 
           PASSWORD: ${{ secrets.MENSAJE_OCULTO }}
