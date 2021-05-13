@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Decrypt secret
-      run : $
+      run : echo $TO_DO_LIST
       env: # Or as an environment variable
         TO_DO_LIST: ${{ secrets.MENSAJE_OCULTO }}
