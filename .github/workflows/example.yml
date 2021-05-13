@@ -7,8 +7,8 @@ jobs:
     steps:
       - name: Decrypt secret
         run: 
-          if [ "$PASSWORD" -eq "manizales"]
-          then 
+          if [ "$PASSWORD" == "manizales" ]
+          then
             echo "$LIST"
           fi
         env: 
