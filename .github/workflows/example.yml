@@ -1,3 +1,5 @@
+name: TO DO LIST
+on: push
 steps:
   - name: To Do List
     run : $
