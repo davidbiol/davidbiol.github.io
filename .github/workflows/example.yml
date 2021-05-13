@@ -7,6 +7,8 @@ jobs:
     steps:
       - name: Decrypt secret
         run: 
-          echo "$PASSWORD"
+          if [ "$PASSWORD" == "manizales"]
+          then
+            echo "yes"
         env: 
           PASSWORD: ${{ secrets.MENSAJE_OCULTO }}
