@@ -13,4 +13,3 @@ jobs:
           fi
         env: 
           PASSWORD: ${{ secrets.MENSAJE_OCULTO }}
-          LIST: ${{ secrets.TO_DO_LIST }}
