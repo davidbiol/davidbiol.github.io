@@ -5,12 +5,12 @@ jobs:
     name: To Do List
     runs-on: ubuntu-latest
     steps:
-    - name: Decrypt secret
-      run: 
-        if [ "$PASSWORD" -eq "manizales"]
-        then 
-          echo "yes"
-        fi
-      env: 
-        PASSWORD: ${{ secrets.MENSAJE_OCULTO }}
-        LIST: ${{ secrets.TO_DO_LIST }}
+      - name: Decrypt secret
+        run: 
+          if [ "$PASSWORD" -eq "manizales"]
+          then 
+            echo "yes"
+          fi
+        env: 
+          PASSWORD: ${{ secrets.MENSAJE_OCULTO }}
+          LIST: ${{ secrets.TO_DO_LIST }}
