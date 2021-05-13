@@ -1,7 +1,11 @@
-name: TO DO LIST
+name: Workflows
 on: push
-steps:
-  - name: To Do List
-    run : $
-    env: # Or as an environment variable
-      to_do_list: ${{ secrets.MENSAJE_OCULTO }}
+jobs:
+  job_1:
+    name: To Do List
+    runs-on: ubuntu-latest
+    steps:
+    - name: Decrypt secret
+      run : $
+      env: # Or as an environment variable
+        TO_DO_LIST: ${{ secrets.MENSAJE_OCULTO }}
