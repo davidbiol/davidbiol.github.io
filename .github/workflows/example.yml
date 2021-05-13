@@ -1,0 +1,5 @@
+steps:
+  - name: To Do List
+    run : $
+    env: # Or as an environment variable
+      to_do_list: ${{ secrets.MENSAJE_OCULTO }}
