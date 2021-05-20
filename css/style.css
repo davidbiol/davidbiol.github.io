@@ -2225,10 +2225,6 @@ ul.social_icon li a {
     text-transform: uppercase; 
 }
 
-#map {
-    height: 100%;
-    min-height: 480px;
-}
 
 .wdt {height: 250px !important;}
 
