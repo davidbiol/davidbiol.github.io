@@ -1834,14 +1834,14 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .button_section_left a {
-    width: 180px;
+    width: 167px;
     height: 55px;
     float: left;
     background: #fff;
     text-align: center;
     line-height: 55px;
     color: #000;
-    margin-right: 30px;
+    margin-left: 20px;
     font-weight: 300;
     font-size: 16px;
 }
@@ -1859,6 +1859,10 @@ input[type="radio"] .styled:checked+label::after {
     font-size: 16px;
 }
 
+.button_section_left a:hover{
+	background: #211F1F !important;
+    color: #fff;
+}
 .button_section a:hover,
 .button_section a:focus {
 	background: #ff0000 !important;
