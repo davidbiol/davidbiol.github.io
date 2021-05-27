@@ -1833,6 +1833,32 @@ input[type="radio"] .styled:checked+label::after {
     font-size: 16px;
 }
 
+.button_section_left a {
+    width: 180px;
+    height: 55px;
+    float: left;
+    background: #fff;
+    text-align: center;
+    line-height: 55px;
+    color: #000;
+    margin-right: 30px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.button_section_right a {
+    width: 180px;
+    height: 55px;
+    float: right;
+    background: #000;
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    margin-right: 30px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
 .button_section a:hover,
 .button_section a:focus {
 	background: #ff0000 !important;
