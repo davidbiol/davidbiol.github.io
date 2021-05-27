@@ -1847,14 +1847,14 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .button_section_right a {
-    width: 180px;
+    width: 167px;
     height: 55px;
     float: right;
     background: #000;
     text-align: center;
     line-height: 55px;
     color: #fff;
-    margin-right: 30px;
+    margin-right: 20px;
     font-weight: 300;
     font-size: 16px;
 }
@@ -1863,6 +1863,12 @@ input[type="radio"] .styled:checked+label::after {
 	background: #211F1F !important;
     color: #fff;
 }
+
+.button_section_right a:hover{
+	background: #b6b5b5 !important;
+    color: #000;
+}
+
 .button_section a:hover,
 .button_section a:focus {
 	background: #ff0000 !important;
