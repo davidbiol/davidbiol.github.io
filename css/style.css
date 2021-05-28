@@ -2148,6 +2148,11 @@ footer {
     margin-top: 10px;
 }
 
+.footer_links a:hover{
+    color: #ff0000;
+}
+}
+
 .contact_information {
     margin-top: 50px;
     float: left;
