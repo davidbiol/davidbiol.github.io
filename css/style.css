@@ -1989,6 +1989,7 @@ input[type="radio"] .styled:checked+label::after {
 	margin: auto;
 	padding: 70px;
 	text-align: center;
+	padding-top: 30px;
 }
 
 .listing_organizations h3 {
@@ -1996,7 +1997,7 @@ input[type="radio"] .styled:checked+label::after {
     color: #141615;
     line-height: 50px;
     font-weight: 600;
-    padding: 0;
+    padding-bottom: 30px;
     margin: 0;
 }
 
