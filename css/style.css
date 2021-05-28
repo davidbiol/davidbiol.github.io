@@ -206,6 +206,16 @@ button {
 	padding: 0;
 	cursor: pointer;
 }
+/* Create two equal columns that sits next to each other */
+.column {
+	flex: 50%;
+	padding: 0 4px;
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+}
 
 /* Style all font awesome icons */
 .fab {
@@ -1951,7 +1961,7 @@ input[type="radio"] .styled:checked+label::after {
 
 .objectives_cont {
 	width: 50%;
-	margin: 0 auto;
+	margin: auto;
 	padding: 70px;
 }
 
@@ -1974,6 +1984,21 @@ input[type="radio"] .styled:checked+label::after {
     margin: 0;
 }
 
+.listing_organizations{
+	width: 70%;
+	margin: auto;
+	padding: 70px;
+	text-align: center;
+}
+
+.listing_organizations h3 {
+    font-size: 38px;
+    color: #141615;
+    line-height: 50px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
 
 .comment_form {
 	float: left;
