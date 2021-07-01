@@ -297,7 +297,7 @@ button {
 	width: 150%;
 	float: left;
 	margin: -250px;
-	padding: 0;
+	margin-bottom: 40px;
 }
 
 .blog_blue_bg {
