@@ -73,10 +73,10 @@
                               <li>
                                  <a href="media.html">Media</a>
                               </li>
-                              <li class = "active">
+                              <li>
                                  <a href="contact.html">Contact me</a>
                               </li>
-                              <li>
+                              <li class="active">
                                  <a href="support.html">Support</a>
                               </li>
                            </ul>
@@ -94,7 +94,7 @@
       <div class="row">
          <div class="col-md-12">
             <div class="contactheading">
-               <h3>contact Me</h3>
+               <h3>Support</h3>
             </div>
          </div>
       </div>
@@ -107,70 +107,29 @@
             
             
             <div class="row">
-               <div class="col-md-12">
-                  <div class="full comment_form">
-                     <form action="https://formsubmit.co/davidgd2015@gmail.com" method="POST">
-                        <input type="hidden" name="_next" value="https://davidbiol.github.io/contact.html">
-                        <input type="hidden" name="_subject" value="New message from website!">
-                        <fieldset>
-                           <div class="col-md-12">
-                              <div class="row">
-                                 <div class="col-md-6">
-                                    <input type="text" name="name" placeholder="Name" required/>
-                                    <input type="email" name="email" placeholder="Email" required/>
-                                    <input type="text" name="subject" placeholder="Subject" required/>
-                                 </div>
-                                 <div class="col-md-6">
-                                    <textarea class="wdt" name="message" placeholder="Write here your message" required></textarea>
-                                 </div>
-                              </div>
-                              <div class="row margin_top_30">
-                                 <div class="col-md-12">
-                                    <div class="center">
-                                       <button>Send</button>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </fieldset>
-                     </form>
-                     <div class="row margin_top_30">
-                        <div class="col-md-12">
-                           <div style="padding-top: 30 px;text-align: center;">
-                              <div class="container">
-            
-                              <!-- The social media icon bar -->
-                              <div class="icon-bar">
-                                 
-                                 <a href="https://www.researchgate.net/profile/David-Gutierrez-Duque" target="_blank"><i class="fab fa-researchgate"></i></a>
-                                 <a href="https://www.linkedin.com/in/david-guti%C3%A9rrez-duque-359964112/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                 <a href="https://github.com/davidbiol" target="_blank"><i class="fab fa-github"></i></a>
-                                 <a href="https://orcid.org/0000-0001-8493-6452" target="_blank"><span class="iconify" data-icon="fa-brands:orcid" data-inline="true"></span></a>
-                                 <a href="https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001700462" target="_blank"><img class="iconify" src="images/cvlac_image.png" style="height: 45px; margin-top: -20px;"></span></a>
-                                 <a href="https://mail.google.com/mail/u/0/?fs=1&to=davidgd2015@gmail.com&tf=cm" target="_blank"><span class="iconify" data-icon="mdi-gmail" data-inline="true" style="color: rgb(201, 44, 25);"></span></a>
-            
-                              </div>
-                                 </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+               <div class="column">
+               <p>Science is built together. If you want to participate in any of these project, don't hesitate to reach me out and contact me. I will be glad to know about you. As well as participating, you can <b>support</b> my research. Since most of the projects are self-funded, any donation that you can give is welcomed. The money will be not only used for <a href="research.html"><u>research</u></a> purposes, but also for participating in scientific events, developing material for community outreach and publication fees.</p>
                </div>
-         </div>
-               <!-- map -->
-      <div class="row margin_top_30">
-         <div class="col-md-12">
-            <div style="padding-top: 30 px;text-align: center;">
-               <div class="container">
-                <body>
-                  <h3>Ubication of University of Caldas</h3>
-                  <!--The div element for the map -->
-       
-                  <iframe width="602" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=602&amp;height=400&amp;hl=en&amp;q=65%20-%2026%20-%2010%20Manizales+(Caldas%20University)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://addmap.net/'>adding google maps to a website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=5b76739c0911291d8317496f47b27f33dada5731'></script>
-                  </div>
-               </div>
+            
+            <div id="donate-button-container" class="column">
+               <div id="donate-button"></div>
+               <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+               <script>
+               PayPal.Donation.Button({
+               env:'production',
+               hosted_button_id:'S322J9JGSVJPW',
+               image: {
+               src:'/Users/davidgutierrez/Documents/Portfolio/images/PayPal-Donate-Button-Transparent.png',
+               alt:'Donate with PayPal button',
+               title:'PayPal - The safer, easier way to pay online!',
+               }
+               }).render('#donate-button');
+               </script>
             </div>
          </div>
+               
+               
+
       </div>
          </body>
       </section>

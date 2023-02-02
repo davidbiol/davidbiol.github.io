@@ -139,6 +139,10 @@ a {
 	outline: none !important;
 }
 
+u:hover {
+    color: red;
+}
+
 a,
 .btn {
 	text-decoration: none !important;
@@ -2176,7 +2180,6 @@ footer {
 .footer_links a:hover{
     color: #ff0000;
 }
-}
 
 .contact_information {
     margin-top: 50px;
@@ -2294,14 +2297,78 @@ ul.social_icon li a {
 
 .wdt {height: 250px !important;}
 
+.row-multimedia {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	margin-bottom: 40px;
+  }
+
+.column {
+	flex: 50%;
+	padding: 0 4px;
+	position: relative;
+  	width: 50%;
+}
+  
+
+.column img {
+	margin-bottom: 8px;
+	vertical-align: middle;
+}
+
+.image-grid {
+	position: relative;
+}
 
 
+.image-grid .overlay {
+	position: absolute;
+	top: 8px;
+	bottom: 8px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #184091;
+  }
+  
+.image-grid:hover .overlay {
+	opacity: 0.5;
+  }
+  
+.text-overlay {
+	color: white;
+	position: absolute;
+	width: 90%;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: calc(25% + 1vw + 1vh);
+  }
 
+.date-overlay {
+	color: white;
+	font-size: 10px;
+	position: absolute;
+	bottom: 0px;
+	right: -50px;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: right;
+  }
 
+#donate-button {
+	width: 400px;
+}
 
-
-
-
-
-
-
+#donate-button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
