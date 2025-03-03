@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_89790de0ee2af24f4efb782091f27a74 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_89790de0ee2af24f4efb782091f27a74" ></div>
+        
+    
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+  <script>
+  $( function() {
+    $( "#maplegend" ).draggable({
+                    start: function (event, ui) {
+                        $(this).css({
+                            right: "auto",
+                            top: "auto",
+                            bottom: "auto"
+                        });
+                    }
+                });
+});
+
+  </script>
+</head>
+<body>
+
+ 
+<div id='maplegend' class='maplegend' 
+    style='position: absolute; z-index:9999; border:2px solid grey; background-color:rgba(255, 255, 255, 0.8);
+     border-radius:6px; padding: 10px; font-size:14px; right: 20px; bottom: 20px;'>
+     
+<div class='legend-title'>Sections</div>
+<div class='legend-scale'>
+  <ul class='legend-labels'>
+    <li><span style='background:green;opacity:1;'></span><i>Ophiomeris</i></li>
+    <li><span style='background:orange;opacity:1;'></span><i>Pyramidalis</i></li>
+    <li><span style='background:gray;opacity:1;'></span><i>Unknown</i></li>
+
+  </ul>
+</div>
+</div>
+ 
+</body>
+</html>
+
+<style type='text/css'>
+  .maplegend .legend-title {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 90%;
+    }
+  .maplegend .legend-scale ul {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    float: left;
+    list-style: none;
+    }
+  .maplegend .legend-scale ul li {
+    font-size: 80%;
+    list-style: none;
+    margin-left: 0;
+    line-height: 18px;
+    margin-bottom: 2px;
+    }
+  .maplegend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 16px;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 0;
+    border: 1px solid #999;
+    }
+  .maplegend .legend-source {
+    font-size: 80%;
+    color: #777;
+    clear: both;
+    }
+  .maplegend a {
+    color: #777;
+    }
+</style>
+    
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+  <script>
+  $( function() {
+    $( "#maplegend" ).draggable({
+                    start: function (event, ui) {
+                        $(this).css({
+                            right: "auto",
+                            top: "auto",
+                            bottom: "auto"
+                        });
+                    }
+                });
+});
+
+  </script>
+</head>
+<body>
+
+ 
+<div id='maplegend' class='maplegend' 
+    style='position: absolute; z-index:9999; border:2px solid grey; background-color:rgba(255, 255, 255, 0.8);
+     border-radius:6px; padding: 10px; font-size:14px; left: 20px; bottom: 20px;'>
+     
+<div class='legend-title'>Map view</div>
+<div class='legend-scale'>
+  <ul class='legend-labels'>
+    <li><a href='map.html'> Open street</a></li>
+    <li><a href='map_stamenTerrain.html'> Terrain</a></li>
+
+  </ul>
+</div>
+</div>
+ 
+</body>
+</html>
+
+<style type='text/css'>
+  .maplegend .legend-title {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 90%;
+    }
+  .maplegend .legend-scale ul {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    float: left;
+    list-style: none;
+    }
+  .maplegend .legend-scale ul li {
+    font-size: 80%;
+    list-style: none;
+    margin-left: 0;
+    line-height: 18px;
+    margin-bottom: 2px;
+    }
+  .maplegend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 16px;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 0;
+    border: 1px solid #999;
+    }
+  .maplegend .legend-source {
+    font-size: 80%;
+    color: #777;
+    clear: both;
+    }
+  .maplegend a {
+    color: #777;
+    }
+</style>
+</body>
+<script>
+    
+    
+            var map_89790de0ee2af24f4efb782091f27a74 = L.map(
+                "map_89790de0ee2af24f4efb782091f27a74",
+                {
+                    center: [4.57, -74.29],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2a190aaad7dc6ebc0622cd37a5cf9946 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_89790de0ee2af24f4efb782091f27a74);
+        
+    
+            var marker_12b2df447faf4df12291be7e7108e540 = L.marker(
+                [7.22805, -72.31172777777778],
+                {}
+            ).addTo(map_89790de0ee2af24f4efb782091f27a74);
+        
+    
+            var icon_aa680eb9a5f833d5700ff38875ce631d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_12b2df447faf4df12291be7e7108e540.setIcon(icon_aa680eb9a5f833d5700ff38875ce631d);
+        
+    
+        var popup_b18e97e4f7a9f53cd21056595dc76a4f = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_ce44a78df309873febc2bf1f87c2bfe5 = $(`<div id="html_ce44a78df309873febc2bf1f87c2bfe5" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Thismia andicola </b></i> Aguilar-Cano, S. Guzman-Guzman & Lopera-Toro <br>Year of publication: 2023 <br> sect. <i>Ophiomeris</i> <br> <a href='../thismia_andicola.html' target = '_blank'> More information about this species </a> <br> <a href='https://www.biotaxa.org/Phytotaxa/article/view/phytotaxa.579.2.4' target = '_blank'> Orignial publication</a><br> </p> <img src='image.jpeg'> </div></div>`)[0];
+                popup_b18e97e4f7a9f53cd21056595dc76a4f.setContent(html_ce44a78df309873febc2bf1f87c2bfe5);
+            
+        
+
+        marker_12b2df447faf4df12291be7e7108e540.bindPopup(popup_b18e97e4f7a9f53cd21056595dc76a4f)
+        ;
+
+        
+    
+    
+            marker_12b2df447faf4df12291be7e7108e540.bindTooltip(
+                `<div>
+                     <div><p><i><b>Thismia andicola</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a9a36e88f268083ffeafbe8733198cd = L.marker(
+                [-9.3902778, -69.91972222222223],
+                {}
+            ).addTo(map_89790de0ee2af24f4efb782091f27a74);
+        
+    
+            var icon_1d0ad8e7f7560260f8267f8da0e537e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5a9a36e88f268083ffeafbe8733198cd.setIcon(icon_1d0ad8e7f7560260f8267f8da0e537e1);
+        
+    
+        var popup_ed4c769cb34dadfad3950a6660b5f30e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_be3ee45dfe4579c815e54bf98343bee7 = $(`<div id="html_be3ee45dfe4579c815e54bf98343bee7" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Thismia calcarata </b></i> D.F.Silva, Honório & J.M.A.Braga <br>Year of publication: 2023 <br> sect. <i>Ophiomeris</i> <br> <a href='../thismia_calcarata.html' target = '_blank'> More information about this species </a> <br> <a href='https://www.biotaxa.org/Phytotaxa/article/view/phytotaxa.587.3.5' target = '_blank'> Orignial publication</a><br> </p> <img src='image_thismia_calcarata.png' width = '300'> </div></div>`)[0];
+                popup_ed4c769cb34dadfad3950a6660b5f30e.setContent(html_be3ee45dfe4579c815e54bf98343bee7);
+            
+        
+
+        marker_5a9a36e88f268083ffeafbe8733198cd.bindPopup(popup_ed4c769cb34dadfad3950a6660b5f30e)
+        ;
+
+        
+    
+    
+            marker_5a9a36e88f268083ffeafbe8733198cd.bindTooltip(
+                `<div>
+                     <div><p><i><b>Thismia calcarata</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b1b02daa55edc8395d21fee968d531b = L.marker(
+                [-9.75125, -67.67108333333334],
+                {}
+            ).addTo(map_89790de0ee2af24f4efb782091f27a74);
+        
+    
+            var icon_dbb1f1f287ba902dd1d09e6b8cf2b8cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6b1b02daa55edc8395d21fee968d531b.setIcon(icon_dbb1f1f287ba902dd1d09e6b8cf2b8cb);
+        
+    
+        var popup_bc0691577c5aeb487b1772454760bc15 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_3eef79a183a9e5bc40e8af8302166514 = $(`<div id="html_3eef79a183a9e5bc40e8af8302166514" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Thismia variabilis </b></i> D.F.Silva, Honório & J.M.A.Braga <br>Year of publication: 2023 <br> sect. <i>Ophiomeris</i> <br> <a href='../thismia_variabilis.html' target = '_blank'> More information about this species </a> <br> <a href='https://www.biotaxa.org/Phytotaxa/article/view/phytotaxa.587.3.5' target = '_blank'> Orignial publication</a><br> </p> <img src='image_thismia_variabilis.png' width = '250'> </div></div>`)[0];
+                popup_bc0691577c5aeb487b1772454760bc15.setContent(html_3eef79a183a9e5bc40e8af8302166514);
+            
+        
+
+        marker_6b1b02daa55edc8395d21fee968d531b.bindPopup(popup_bc0691577c5aeb487b1772454760bc15)
+        ;
+
+        
+    
+    
+            marker_6b1b02daa55edc8395d21fee968d531b.bindTooltip(
+                `<div>
+                     <div><p><i><b>Thismia variabilis</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f979d792cf6e65d10b7ddbbf7b12742 = L.marker(
+                [-9.9944444, -57.82166666666667],
+                {}
+            ).addTo(map_89790de0ee2af24f4efb782091f27a74);
+        
+    
+            var icon_90dec6e064e12fe0474970e37550d1f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1f979d792cf6e65d10b7ddbbf7b12742.setIcon(icon_90dec6e064e12fe0474970e37550d1f0);
+        
+    
+        var popup_2eab6fbb821bc3b2724227f944b29642 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_54d013d98403b11deb4b04f3656e4306 = $(`<div id="html_54d013d98403b11deb4b04f3656e4306" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Thismia petasiformis </b></i> D.F.Silva & J.M.A.Braga <br>Year of publication: 2022 <br> sect. <i>Pyramidalis</i> <br> <a href='../thismia_petasiformis.html' target = '_blank'> More information about this species </a> <br> <a href='https://www.biotaxa.org/Phytotaxa/article/view/phytotaxa.564.2.5' target = '_blank'> Orignial publication</a><br> </p> <img src='image_thismia_petasiformis.png' width = '250'> </div></div>`)[0];
+                popup_2eab6fbb821bc3b2724227f944b29642.setContent(html_54d013d98403b11deb4b04f3656e4306);
+            
+        
+
+        marker_1f979d792cf6e65d10b7ddbbf7b12742.bindPopup(popup_2eab6fbb821bc3b2724227f944b29642)
+        ;
+
+        
+    
+    
+            marker_1f979d792cf6e65d10b7ddbbf7b12742.bindTooltip(
+                `<div>
+                     <div><p><i><b>Thismia petasiformis</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29978c3e40b573232ddff0e95bd71fb8 = L.marker(
+                [-21.998159821631155, -44.747458250117866],
+                {}
+            ).addTo(map_89790de0ee2af24f4efb782091f27a74);
+        
+    
+            var icon_e8cc895170405be30d72a590ddfc4f00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_29978c3e40b573232ddff0e95bd71fb8.setIcon(icon_e8cc895170405be30d72a590ddfc4f00);
+        
+    
+        var popup_714ca38041ff224ddf5b811eb1d666a5 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_ea686be95c041d39cd452822a7398bd5 = $(`<div id="html_ea686be95c041d39cd452822a7398bd5" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Thismia mantiqueirensis </b></i> Engels & E.C.Smidt <br>Year of publication: 2022 <br> sect. <i>Ophiomeris</i> <br> <a href='../thismia_mantiqueirensis.html' target = '_blank'> More information about this species </a> <br> <a href='https://www.biotaxa.org/Phytotaxa/article/view/phytotaxa.570.2.8' target = '_blank'> Orignial publication</a><br> </p> <img src='image_thismia_mantiqueirensis.png' width = '175'> </div></div>`)[0];
+                popup_714ca38041ff224ddf5b811eb1d666a5.setContent(html_ea686be95c041d39cd452822a7398bd5);
+            
+        
+
+        marker_29978c3e40b573232ddff0e95bd71fb8.bindPopup(popup_714ca38041ff224ddf5b811eb1d666a5)
+        ;
+
+        
+    
+    
+            marker_29978c3e40b573232ddff0e95bd71fb8.bindTooltip(
+                `<div>
+                     <div><p><i><b>Thismia mantiqueirensis</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_afd3fce220bd69d2888cc0c2a22229c1 = L.marker(
+                [-25.5122222, -48.98888888888889],
+                {}
+            ).addTo(map_89790de0ee2af24f4efb782091f27a74);
+        
+    
+            var icon_10878005dd60b3dead5738c8f6e884d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_afd3fce220bd69d2888cc0c2a22229c1.setIcon(icon_10878005dd60b3dead5738c8f6e884d1);
+        
+    
+        var popup_62f5a2557b7c4f4e19c74120775b1698 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_abf1574dc448aa8de462b6efcb01178e = $(`<div id="html_abf1574dc448aa8de462b6efcb01178e" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Thismia cordata </b></i> D.F.Silva & J.M.A.Braga <br>Year of publication: 2022 <br> sect. <i>Ophiomeris</i> <br> <a href='../thismia_cordata.html' target = '_blank'> More information about this species </a> <br> <a href='https://www.biotaxa.org/Phytotaxa/article/view/phytotaxa.571.1.6' target = '_blank'> Orignial publication</a><br> </p> <img src='image_thismia_cordata.png' width = '175'> </div></div>`)[0];
+                popup_62f5a2557b7c4f4e19c74120775b1698.setContent(html_abf1574dc448aa8de462b6efcb01178e);
+            
+        
+
+        marker_afd3fce220bd69d2888cc0c2a22229c1.bindPopup(popup_62f5a2557b7c4f4e19c74120775b1698)
+        ;
+
+        
+    
+    
+            marker_afd3fce220bd69d2888cc0c2a22229c1.bindTooltip(
+                `<div>
+                     <div><p><i><b>Thismia cordata</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e0a935eeeb8d936eb48b32ec59a5cf4 = L.marker(
+                [-25.38, -48.43],
+                {}
+            ).addTo(map_89790de0ee2af24f4efb782091f27a74);
+        
+    
+            var icon_b9ad26de1d23ef9f7fa97236df2b3c62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_7e0a935eeeb8d936eb48b32ec59a5cf4.setIcon(icon_b9ad26de1d23ef9f7fa97236df2b3c62);
+        
+    
+        var popup_fe25bbc7c129ceeca0aad04620f27fe2 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_db71cf57c5d54df76ed01d35134491fe = $(`<div id="html_db71cf57c5d54df76ed01d35134491fe" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Thismia prataensis </b></i> Mancinelli, C. T. Blum and E. C. Smidt <br>Year of publication: 2012 <br> sect. <i>Unknown</i> <br> <a href='../thismia_prataensis.html' target = '_blank'> More information about this species </a> <br> <a href='https://bioone.org/journals/systematic-botany/volume-37/issue-4/036364412X656545/Thismia-prataensis-Thismiaceae-a-New-Species-from-the-Brazilian-Atlantic/10.1600/036364412X656545.short' target = '_blank'> Orignial publication</a><br> </p> <img src='image_thismia_prataensis.png' width = '250'> </div></div>`)[0];
+                popup_fe25bbc7c129ceeca0aad04620f27fe2.setContent(html_db71cf57c5d54df76ed01d35134491fe);
+            
+        
+
+        marker_7e0a935eeeb8d936eb48b32ec59a5cf4.bindPopup(popup_fe25bbc7c129ceeca0aad04620f27fe2)
+        ;
+
+        
+    
+    
+            marker_7e0a935eeeb8d936eb48b32ec59a5cf4.bindTooltip(
+                `<div>
+                     <div><p><i><b>Thismia prataensis</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b57ef5d0ec3942c5eca261ce081d029d = L.marker(
+                [-9.96920437016841, -57.82678718897943],
+                {}
+            ).addTo(map_89790de0ee2af24f4efb782091f27a74);
+        
+    
+            var icon_d0b61b82ad8d67d127bbecc4a65a546d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b57ef5d0ec3942c5eca261ce081d029d.setIcon(icon_d0b61b82ad8d67d127bbecc4a65a546d);
+        
+    
+        var popup_c4df0b94d743342fb5b7ca444585422e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_428410bc2491f88c5317e1df8791f35d = $(`<div id="html_428410bc2491f88c5317e1df8791f35d" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Thismia ribeiroi </b></i> Engels, D. Ferreira-da-Silva & Soares-Lopes <br>Year of publication: 2020 <br> sect. <i>Pyramidalis</i> <br> <a href='../thismia_ribeiroi.html' target = '_blank'> More information about this species </a> <br> <a href='https://bioone.org/journals/systematic-botany/volume-37/issue-4/036364412X656545/Thismia-prataensis-Thismiaceae-a-New-Species-from-the-Brazilian-Atlantic/10.1600/036364412X656545.short' target = '_blank'> Orignial publication</a><br> </p> <img src='image_thismia_ribeiroi.png' width = '250'> </div></div>`)[0];
+                popup_c4df0b94d743342fb5b7ca444585422e.setContent(html_428410bc2491f88c5317e1df8791f35d);
+            
+        
+
+        marker_b57ef5d0ec3942c5eca261ce081d029d.bindPopup(popup_c4df0b94d743342fb5b7ca444585422e)
+        ;
+
+        
+    
+    
+            marker_b57ef5d0ec3942c5eca261ce081d029d.bindTooltip(
+                `<div>
+                     <div><p><i><b>Thismia ribeiroi</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
