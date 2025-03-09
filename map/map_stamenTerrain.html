@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_9c666fe8b0e7b570b2ed351d02132a33 {
+                #map_a4f02cef7f5e4c4313207f27bb91386a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,7 +39,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_9c666fe8b0e7b570b2ed351d02132a33" ></div>
+            <div class="folium-map" id="map_a4f02cef7f5e4c4313207f27bb91386a" ></div>
         
     
 
@@ -76,10 +76,15 @@
     style='position: absolute; z-index:9999; border:2px solid grey; background-color:rgba(255, 255, 255, 0.8);
      border-radius:6px; padding: 10px; font-size:14px; right: 20px; bottom: 20px;'>
      
-<div class='legend-title'>Sections</div>
+<div class='legend-title'>Regions</div>
 <div class='legend-scale'>
   <ul class='legend-labels'>
-    <li><span style='background:green;opacity:0.7;'></span>Ophiomeris</li>
+    <li><span style='background:#73b127;opacity:1;'></span><i>Andes</i></li>
+    <li><span style='background:orange;opacity:1;'></span><i>Brazil, Paraguay and Uruguay</i></li>
+    <li><span style='background:gray;opacity:1;'></span><i>Central America</i></li>
+    <li><span style='background:rgb(64, 173, 251);opacity:1;'></span><i>West Indies</i></li>
+    <li><span style='background:rgb(197, 8, 218);opacity:1;'></span><i>Circumaustral</i></li>
+    <li><span style='background:rgb(211, 2, 2);opacity:1;'></span><i>Paleotropics</i></li>
 
   </ul>
 </div>
@@ -167,6 +172,7 @@
   <ul class='legend-labels'>
     <li><a href='map.html'> Open street</a></li>
     <li><a href='map_stamenTerrain.html'> Terrain</a></li>
+
   </ul>
 </div>
 </div>
@@ -217,12 +223,12 @@
 <script>
     
     
-            var map_9c666fe8b0e7b570b2ed351d02132a33 = L.map(
-                "map_9c666fe8b0e7b570b2ed351d02132a33",
+            var map_a4f02cef7f5e4c4313207f27bb91386a = L.map(
+                "map_a4f02cef7f5e4c4313207f27bb91386a",
                 {
                     center: [4.57, -74.29],
                     crs: L.CRS.EPSG3857,
-                    zoom: 6,
+                    zoom: 3,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -232,42 +238,474 @@
 
         
     
-            var tile_layer_fdf78083af199875ad5ea4b4b970e611 = L.tileLayer(
+            var tile_layer_ea81a7434ce96e3c22fa9d3be80a3ef8 = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-                {"attribution": "Thismia web 2023 \u0026copy;", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_9c666fe8b0e7b570b2ed351d02132a33);
+                {"attribution": "D. Guti\u00e9rrez-Duque 2025 \u0026copy;", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a4f02cef7f5e4c4313207f27bb91386a);
         
     
-            var marker_19e0bfdf8c04a597b9f8037d9d255dca = L.marker(
-                [7.22805, -72.31172777777778],
+            var marker_e7e7977b5a477ea87a75b33924f59eb4 = L.marker(
+                [-10.381389, -75.6375],
                 {}
-            ).addTo(map_9c666fe8b0e7b570b2ed351d02132a33);
+            ).addTo(map_a4f02cef7f5e4c4313207f27bb91386a);
         
     
-            var icon_b0256aaf2cb191e348fbd7b990d8f9e6 = L.AwesomeMarkers.icon(
+            var icon_eed5cf95bde9a87746347e811c56c47a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
             );
-            marker_19e0bfdf8c04a597b9f8037d9d255dca.setIcon(icon_b0256aaf2cb191e348fbd7b990d8f9e6);
+            marker_e7e7977b5a477ea87a75b33924f59eb4.setIcon(icon_eed5cf95bde9a87746347e811c56c47a);
         
     
-        var popup_48bbcfd16232ed3d803bea133cd98d29 = L.popup({"maxWidth": 500});
+        var popup_3d6127222032760b6321b00240171c70 = L.popup({"maxWidth": 500});
 
         
             
-                var html_f633073e4d98148f3b6fed257b8e780d = $(`<div id="html_f633073e4d98148f3b6fed257b8e780d" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Thismia andicola </b></i> Aguilar-Cano, S. Guzman-Guzman & Lopera-Toro <br>Year of publication: 2023 <br> sect. Ophiomeris <br> <a href='../thismia_andicola.html' target = '_blank'> More information about this species </a> <br> <a href='https://www.biotaxa.org/Phytotaxa/article/view/phytotaxa.579.2.4' target = '_blank'> Orignial publication</a><br> </p> <img src='image.jpeg'> </div></div>`)[0];
-                popup_48bbcfd16232ed3d803bea133cd98d29.setContent(html_f633073e4d98148f3b6fed257b8e780d);
+                var html_90b0a480398feb7cdf56703bf8015fb4 = $(`<div id="html_90b0a480398feb7cdf56703bf8015fb4" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Megalastrum clathratum </b></i> R.C. Moran, J. Prado & Sundue <br>Year of publication: 2014 <br> Region Andes <br> <a href='https://sweetgum.nybg.org/science/projects/megalastrum/taxon-details/?irn=606399' target = '_blank'> More information about this species </a> <br> <a href='https://bioone.org/journals/american-fern-journal/volume-104/issue-3/0002-8444-104.3.109/Megalastrum-Dryopteridaceae-in-Andean-South-America-Part-I/10.1640/0002-8444-104.3.109.short' target = '_blank'> Original publication</a><br> </p> <img src=''> </div></div>`)[0];
+                popup_3d6127222032760b6321b00240171c70.setContent(html_90b0a480398feb7cdf56703bf8015fb4);
             
         
 
-        marker_19e0bfdf8c04a597b9f8037d9d255dca.bindPopup(popup_48bbcfd16232ed3d803bea133cd98d29)
+        marker_e7e7977b5a477ea87a75b33924f59eb4.bindPopup(popup_3d6127222032760b6321b00240171c70)
         ;
 
         
     
     
-            marker_19e0bfdf8c04a597b9f8037d9d255dca.bindTooltip(
+            marker_e7e7977b5a477ea87a75b33924f59eb4.bindTooltip(
                 `<div>
-                     <div><p><i><b>Thismia andicola</b></i> 
+                     <div><p><i><b>Megalastrum clathratum</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d60df094a405f1dd5b45b9c78140498 = L.marker(
+                [-25.370055, -48.905074],
+                {}
+            ).addTo(map_a4f02cef7f5e4c4313207f27bb91386a);
+        
+    
+            var icon_1bad059c5c87f7cccf0ebd409201fd2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_3d60df094a405f1dd5b45b9c78140498.setIcon(icon_1bad059c5c87f7cccf0ebd409201fd2d);
+        
+    
+        var popup_5f2ce6fd92000d580b2284ee38ca02b3 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5b9c2844de16966e0f1285f6c13d6c65 = $(`<div id="html_5b9c2844de16966e0f1285f6c13d6c65" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Megalastrum albidum </b></i> R.C. Moran, J. Prado & Labiak <br>Year of publication: 2009 <br> Region Brazil, Paraguay and Uruguay <br> <a href='https://sweetgum.nybg.org/science/projects/megalastrum/taxon-details/?irn=274561' target = '_blank'> More information about this species </a> <br> <a href='https://bioone.org/journals/american-fern-journal/volume-99/issue-1/0002-8444-99.1.1/Megalastrum-Dryopteridaceae-in-Brazil-Paraguay-and-Uruguay/10.1640/0002-8444-99.1.1.short' target = '_blank'> Original publication</a><br> </p> <img src=''> </div></div>`)[0];
+                popup_5f2ce6fd92000d580b2284ee38ca02b3.setContent(html_5b9c2844de16966e0f1285f6c13d6c65);
+            
+        
+
+        marker_3d60df094a405f1dd5b45b9c78140498.bindPopup(popup_5f2ce6fd92000d580b2284ee38ca02b3)
+        ;
+
+        
+    
+    
+            marker_3d60df094a405f1dd5b45b9c78140498.bindTooltip(
+                `<div>
+                     <div><p><i><b>Megalastrum albidum</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44ff8e029a1b1bbcf03da4994d0083cf = L.marker(
+                [-23.0, -58.0],
+                {}
+            ).addTo(map_a4f02cef7f5e4c4313207f27bb91386a);
+        
+    
+            var icon_6cfd27338f814dd08c97e2041cbfab12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_44ff8e029a1b1bbcf03da4994d0083cf.setIcon(icon_6cfd27338f814dd08c97e2041cbfab12);
+        
+    
+        var popup_41d729c7a5605d8c822b3e763f6f8814 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_4fdf854ca9d2aeb9bd709874ec50a325 = $(`<div id="html_4fdf854ca9d2aeb9bd709874ec50a325" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Megalastrum brevipubens </b></i> R.C. Moran, J.Prado & Labiak <br>Year of publication: 2009 <br> Region Brazil, Paraguay and Uruguay <br> <a href='https://sweetgum.nybg.org/science/projects/megalastrum/taxon-details/?irn=274562' target = '_blank'> More information about this species </a> <br> <a href='https://bioone.org/journals/american-fern-journal/volume-99/issue-1/0002-8444-99.1.1/Megalastrum-Dryopteridaceae-in-Brazil-Paraguay-and-Uruguay/10.1640/0002-8444-99.1.1.short' target = '_blank'> Original publication</a><br> </p> <img src=''> </div></div>`)[0];
+                popup_41d729c7a5605d8c822b3e763f6f8814.setContent(html_4fdf854ca9d2aeb9bd709874ec50a325);
+            
+        
+
+        marker_44ff8e029a1b1bbcf03da4994d0083cf.bindPopup(popup_41d729c7a5605d8c822b3e763f6f8814)
+        ;
+
+        
+    
+    
+            marker_44ff8e029a1b1bbcf03da4994d0083cf.bindTooltip(
+                `<div>
+                     <div><p><i><b>Megalastrum brevipubens</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c30159455456857d6d1c60071f7983f = L.marker(
+                [-15.393056, -39.564722],
+                {}
+            ).addTo(map_a4f02cef7f5e4c4313207f27bb91386a);
+        
+    
+            var icon_5f232bfa7c2fdc7d07813633b43a1514 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4c30159455456857d6d1c60071f7983f.setIcon(icon_5f232bfa7c2fdc7d07813633b43a1514);
+        
+    
+        var popup_70d7d950dde269a9f4bc2439545f0e9e = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_fb45308630b0640479436bde0d9f01a1 = $(`<div id="html_fb45308630b0640479436bde0d9f01a1" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Megalastrum indusiatum </b></i> R.C. Moran, J. Prado & Labiak <br>Year of publication: 2009 <br> Region Brazil, Paraguay and Uruguay <br> <a href='https://sweetgum.nybg.org/science/projects/megalastrum/taxon-details/?irn=274563' target = '_blank'> More information about this species </a> <br> <a href='https://bioone.org/journals/american-fern-journal/volume-99/issue-1/0002-8444-99.1.1/Megalastrum-Dryopteridaceae-in-Brazil-Paraguay-and-Uruguay/10.1640/0002-8444-99.1.1.short' target = '_blank'> Original publication</a><br> </p> <img src=''> </div></div>`)[0];
+                popup_70d7d950dde269a9f4bc2439545f0e9e.setContent(html_fb45308630b0640479436bde0d9f01a1);
+            
+        
+
+        marker_4c30159455456857d6d1c60071f7983f.bindPopup(popup_70d7d950dde269a9f4bc2439545f0e9e)
+        ;
+
+        
+    
+    
+            marker_4c30159455456857d6d1c60071f7983f.bindTooltip(
+                `<div>
+                     <div><p><i><b>Megalastrum indusiatum</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d866bb3a59b27b9066628b86f5d4643b = L.marker(
+                [-23.200833, -44.828611],
+                {}
+            ).addTo(map_a4f02cef7f5e4c4313207f27bb91386a);
+        
+    
+            var icon_fcdc41cc6988508cd63feb46622bc84b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d866bb3a59b27b9066628b86f5d4643b.setIcon(icon_fcdc41cc6988508cd63feb46622bc84b);
+        
+    
+        var popup_04a3291f6d834ef56b2657741934f0ea = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_a1b682fbe73f70b8f46d3dd33aa49b21 = $(`<div id="html_a1b682fbe73f70b8f46d3dd33aa49b21" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Megalastrum littorale </b></i> R.C. Moran, J. Prado & Labiak <br>Year of publication: 2009 <br> Region Brazil, Paraguay and Uruguay <br> <a href='https://sweetgum.nybg.org/science/projects/megalastrum/taxon-details/?irn=274564' target = '_blank'> More information about this species </a> <br> <a href='https://bioone.org/journals/american-fern-journal/volume-99/issue-1/0002-8444-99.1.1/Megalastrum-Dryopteridaceae-in-Brazil-Paraguay-and-Uruguay/10.1640/0002-8444-99.1.1.short' target = '_blank'> Original publication</a><br> </p> <img src=''> </div></div>`)[0];
+                popup_04a3291f6d834ef56b2657741934f0ea.setContent(html_a1b682fbe73f70b8f46d3dd33aa49b21);
+            
+        
+
+        marker_d866bb3a59b27b9066628b86f5d4643b.bindPopup(popup_04a3291f6d834ef56b2657741934f0ea)
+        ;
+
+        
+    
+    
+            marker_d866bb3a59b27b9066628b86f5d4643b.bindTooltip(
+                `<div>
+                     <div><p><i><b>Megalastrum littorale</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4b5bd27b6bf97ef8d66ad7659976732 = L.marker(
+                [-22.448889, -42.985],
+                {}
+            ).addTo(map_a4f02cef7f5e4c4313207f27bb91386a);
+        
+    
+            var icon_5358ecdf38c635fa14fc35ab4260dff5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f4b5bd27b6bf97ef8d66ad7659976732.setIcon(icon_5358ecdf38c635fa14fc35ab4260dff5);
+        
+    
+        var popup_d29a8bfa60a76ba8bd24957e0e420acd = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_104b58690f60cad8243ca2b8bf7d01cb = $(`<div id="html_104b58690f60cad8243ca2b8bf7d01cb" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Megalastrum organense </b></i> R.C. Moran, J. Prado & Labiak <br>Year of publication: 2009 <br> Region Brazil, Paraguay and Uruguay <br> <a href='https://sweetgum.nybg.org/science/projects/megalastrum/taxon-details/?irn=274566' target = '_blank'> More information about this species </a> <br> <a href='https://bioone.org/journals/american-fern-journal/volume-99/issue-1/0002-8444-99.1.1/Megalastrum-Dryopteridaceae-in-Brazil-Paraguay-and-Uruguay/10.1640/0002-8444-99.1.1.short' target = '_blank'> Original publication</a><br> </p> <img src=''> </div></div>`)[0];
+                popup_d29a8bfa60a76ba8bd24957e0e420acd.setContent(html_104b58690f60cad8243ca2b8bf7d01cb);
+            
+        
+
+        marker_f4b5bd27b6bf97ef8d66ad7659976732.bindPopup(popup_d29a8bfa60a76ba8bd24957e0e420acd)
+        ;
+
+        
+    
+    
+            marker_f4b5bd27b6bf97ef8d66ad7659976732.bindTooltip(
+                `<div>
+                     <div><p><i><b>Megalastrum organense</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1acac36048c8389612fe1152b7b6d6d3 = L.marker(
+                [-23.170833, -44.835556],
+                {}
+            ).addTo(map_a4f02cef7f5e4c4313207f27bb91386a);
+        
+    
+            var icon_5ca1a7859e93a4df469a4d6e27e7e432 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1acac36048c8389612fe1152b7b6d6d3.setIcon(icon_5ca1a7859e93a4df469a4d6e27e7e432);
+        
+    
+        var popup_87763b371e21b369144caca37ecbad54 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_92d3ed332346959a536071bd15796195 = $(`<div id="html_92d3ed332346959a536071bd15796195" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Megalastrum retrorsum </b></i> R.C. Moran, J. Prado & Labiak <br>Year of publication: 2009 <br> Region Brazil, Paraguay and Uruguay <br> <a href='https://sweetgum.nybg.org/science/projects/megalastrum/taxon-details/?irn=274567' target = '_blank'> More information about this species </a> <br> <a href='https://bioone.org/journals/american-fern-journal/volume-99/issue-1/0002-8444-99.1.1/Megalastrum-Dryopteridaceae-in-Brazil-Paraguay-and-Uruguay/10.1640/0002-8444-99.1.1.short' target = '_blank'> Original publication</a><br> </p> <img src=''> </div></div>`)[0];
+                popup_87763b371e21b369144caca37ecbad54.setContent(html_92d3ed332346959a536071bd15796195);
+            
+        
+
+        marker_1acac36048c8389612fe1152b7b6d6d3.bindPopup(popup_87763b371e21b369144caca37ecbad54)
+        ;
+
+        
+    
+    
+            marker_1acac36048c8389612fe1152b7b6d6d3.bindTooltip(
+                `<div>
+                     <div><p><i><b>Megalastrum retrorsum</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de03399a5a46f456e24af50dfad0cc3a = L.marker(
+                [-20.521111, -41.097222],
+                {}
+            ).addTo(map_a4f02cef7f5e4c4313207f27bb91386a);
+        
+    
+            var icon_c3da6ddf081cd0f05394056df84c3362 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_de03399a5a46f456e24af50dfad0cc3a.setIcon(icon_c3da6ddf081cd0f05394056df84c3362);
+        
+    
+        var popup_541629cf52a0af3d5d772b10e2524b88 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_726e0f3c4177abe5c38e3f08c4e2392a = $(`<div id="html_726e0f3c4177abe5c38e3f08c4e2392a" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Megalastrum substrigosum </b></i> R.C. Moran, J. Prado & Labiak <br>Year of publication: 2009 <br> Region Brazil, Paraguay and Uruguay <br> <a href='https://sweetgum.nybg.org/science/projects/megalastrum/taxon-details/?irn=274568' target = '_blank'> More information about this species </a> <br> <a href='https://bioone.org/journals/american-fern-journal/volume-99/issue-1/0002-8444-99.1.1/Megalastrum-Dryopteridaceae-in-Brazil-Paraguay-and-Uruguay/10.1640/0002-8444-99.1.1.short' target = '_blank'> Original publication</a><br> </p> <img src=''> </div></div>`)[0];
+                popup_541629cf52a0af3d5d772b10e2524b88.setContent(html_726e0f3c4177abe5c38e3f08c4e2392a);
+            
+        
+
+        marker_de03399a5a46f456e24af50dfad0cc3a.bindPopup(popup_541629cf52a0af3d5d772b10e2524b88)
+        ;
+
+        
+    
+    
+            marker_de03399a5a46f456e24af50dfad0cc3a.bindTooltip(
+                `<div>
+                     <div><p><i><b>Megalastrum substrigosum</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f548c2b18c369ccbf3e3958097b723c5 = L.marker(
+                [-2.166667, -79.1],
+                {}
+            ).addTo(map_a4f02cef7f5e4c4313207f27bb91386a);
+        
+    
+            var icon_ef6004556b3236497ee702dfe6bbfd17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f548c2b18c369ccbf3e3958097b723c5.setIcon(icon_ef6004556b3236497ee702dfe6bbfd17);
+        
+    
+        var popup_c7ed173a77d6fd33c864682eb1e2d1cb = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_64c7b93003392964e40636879587cbf6 = $(`<div id="html_64c7b93003392964e40636879587cbf6" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Megalastrum decompositum </b></i> R.C. Moran, J. Prado & Sundue <br>Year of publication: 2014 <br> Region Andes <br> <a href='https://sweetgum.nybg.org/science/projects/megalastrum/taxon-details/?irn=606401' target = '_blank'> More information about this species </a> <br> <a href='https://bioone.org/journals/american-fern-journal/volume-104/issue-3/0002-8444-104.3.109/Megalastrum-Dryopteridaceae-in-Andean-South-America-Part-I/10.1640/0002-8444-104.3.109.short' target = '_blank'> Original publication</a><br> </p> <img src=''> </div></div>`)[0];
+                popup_c7ed173a77d6fd33c864682eb1e2d1cb.setContent(html_64c7b93003392964e40636879587cbf6);
+            
+        
+
+        marker_f548c2b18c369ccbf3e3958097b723c5.bindPopup(popup_c7ed173a77d6fd33c864682eb1e2d1cb)
+        ;
+
+        
+    
+    
+            marker_f548c2b18c369ccbf3e3958097b723c5.bindTooltip(
+                `<div>
+                     <div><p><i><b>Megalastrum decompositum</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e951d2290bfd99ca558d33514c162da = L.marker(
+                [10.311266, -84.833494],
+                {}
+            ).addTo(map_a4f02cef7f5e4c4313207f27bb91386a);
+        
+    
+            var icon_ae6c731c087856fad1e9f752394b9992 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_5e951d2290bfd99ca558d33514c162da.setIcon(icon_ae6c731c087856fad1e9f752394b9992);
+        
+    
+        var popup_b975d6b63643c2a036c2b68bbc272d45 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_73a33f2c599be5f58033b3e39e37c17d = $(`<div id="html_73a33f2c599be5f58033b3e39e37c17d" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Megalastrum apicale </b></i> R.C. Moran & J. Prado <br>Year of publication: 2010 <br> Region Central America <br> <a href='https://sweetgum.nybg.org/science/projects/megalastrum/taxon-details/?irn=290551' target = '_blank'> More information about this species </a> <br> <a href='https://link.springer.com/article/10.1007/s12225-010-9214-3' target = '_blank'> Original publication</a><br> </p> <img src=''> </div></div>`)[0];
+                popup_b975d6b63643c2a036c2b68bbc272d45.setContent(html_73a33f2c599be5f58033b3e39e37c17d);
+            
+        
+
+        marker_5e951d2290bfd99ca558d33514c162da.bindPopup(popup_b975d6b63643c2a036c2b68bbc272d45)
+        ;
+
+        
+    
+    
+            marker_5e951d2290bfd99ca558d33514c162da.bindTooltip(
+                `<div>
+                     <div><p><i><b>Megalastrum apicale</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71249091e611aa348db1f5bbaab62b16 = L.marker(
+                [16.833333, -94.666667],
+                {}
+            ).addTo(map_a4f02cef7f5e4c4313207f27bb91386a);
+        
+    
+            var icon_6b7cba90623436c8878d639b6d6cfdeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_71249091e611aa348db1f5bbaab62b16.setIcon(icon_6b7cba90623436c8878d639b6d6cfdeb);
+        
+    
+        var popup_c3d1fb63759e547b2ef393be9e032039 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_40db33c14484ce029c0b64d7362ba2bd = $(`<div id="html_40db33c14484ce029c0b64d7362ba2bd" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Megalastrum mexicanum </b></i> R.C. Moran & J. Prado <br>Year of publication: 2010 <br> Region Central America <br> <a href='https://sweetgum.nybg.org/science/projects/megalastrum/taxon-details/?irn=290596' target = '_blank'> More information about this species </a> <br> <a href='https://link.springer.com/article/10.1007/s12225-010-9214-3' target = '_blank'> Original publication</a><br> </p> <img src=''> </div></div>`)[0];
+                popup_c3d1fb63759e547b2ef393be9e032039.setContent(html_40db33c14484ce029c0b64d7362ba2bd);
+            
+        
+
+        marker_71249091e611aa348db1f5bbaab62b16.bindPopup(popup_c3d1fb63759e547b2ef393be9e032039)
+        ;
+
+        
+    
+    
+            marker_71249091e611aa348db1f5bbaab62b16.bindTooltip(
+                `<div>
+                     <div><p><i><b>Megalastrum mexicanum</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61c2734e9ae21cda252f04bbbbc49b96 = L.marker(
+                [-33.766667, -80.783333],
+                {}
+            ).addTo(map_a4f02cef7f5e4c4313207f27bb91386a);
+        
+    
+            var icon_1f088fbde11e7879e67f2ee06cb5f04f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_61c2734e9ae21cda252f04bbbbc49b96.setIcon(icon_1f088fbde11e7879e67f2ee06cb5f04f);
+        
+    
+        var popup_592b88453141f5dc89936291dc39e066 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_5e5f1d7bddb937b4e7fc614e15067dfb = $(`<div id="html_5e5f1d7bddb937b4e7fc614e15067dfb" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Megalastrum masafuerae </b></i> Sundue, Rouhan & R.C. Moran <br>Year of publication: 2010 <br> Region Circumaustral <br> <a href='https://sweetgum.nybg.org/science/projects/megalastrum/taxon-details/?irn=297330' target = '_blank'> More information about this species </a> <br> <a href='https://www.jstor.org/stable/40802541' target = '_blank'> Original publication</a><br> </p> <img src=''> </div></div>`)[0];
+                popup_592b88453141f5dc89936291dc39e066.setContent(html_5e5f1d7bddb937b4e7fc614e15067dfb);
+            
+        
+
+        marker_61c2734e9ae21cda252f04bbbbc49b96.bindPopup(popup_592b88453141f5dc89936291dc39e066)
+        ;
+
+        
+    
+    
+            marker_61c2734e9ae21cda252f04bbbbc49b96.bindTooltip(
+                `<div>
+                     <div><p><i><b>Megalastrum masafuerae</b></i> 
+ Click to see more </p></div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_daccb91506e8bc3696afa164e87b5d33 = L.marker(
+                [19.095938, -72.212759],
+                {}
+            ).addTo(map_a4f02cef7f5e4c4313207f27bb91386a);
+        
+    
+            var icon_ce370fe0c378886e67603e14375c3a13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_daccb91506e8bc3696afa164e87b5d33.setIcon(icon_ce370fe0c378886e67603e14375c3a13);
+        
+    
+        var popup_680bc3f3b6f0b668315a3f33db86df60 = L.popup({"maxWidth": 500});
+
+        
+            
+                var html_0f9e67a32a3db27abba59e20b089c6e7 = $(`<div id="html_0f9e67a32a3db27abba59e20b089c6e7" style="width: 100.0%; height: 100.0%;"><div> <p><i><b>Megalastrum villosum </b></i> (L.) Holttum <br>Year of publication: 1986 <br> Region West Indies <br> <a href='https://sweetgum.nybg.org/science/projects/megalastrum/taxon-details/?irn=274464' target = '_blank'> More information about this species </a> <br> <a href='#' target = '_blank'> Original publication</a><br> </p> <img src=''> </div></div>`)[0];
+                popup_680bc3f3b6f0b668315a3f33db86df60.setContent(html_0f9e67a32a3db27abba59e20b089c6e7);
+            
+        
+
+        marker_daccb91506e8bc3696afa164e87b5d33.bindPopup(popup_680bc3f3b6f0b668315a3f33db86df60)
+        ;
+
+        
+    
+    
+            marker_daccb91506e8bc3696afa164e87b5d33.bindTooltip(
+                `<div>
+                     <div><p><i><b>Megalastrum villosum</b></i> 
  Click to see more </p></div>
                  </div>`,
                 {"sticky": true}
