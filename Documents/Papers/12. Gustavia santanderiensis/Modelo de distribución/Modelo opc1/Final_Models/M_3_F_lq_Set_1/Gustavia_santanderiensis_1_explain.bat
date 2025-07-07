@@ -1,0 +1,2 @@
+java -mx889m -cp "/C:/Users/Camila/Documents/maxent/maxent.jar;C:\Users\Camila\Documents\maxent\maxent.jar" density.Explain -l "C:\Users\Camila\Desktop\Modelo opc3\Final_Models\M_3_F_lq_Set_1\Gustavia_santanderiensis_1.lambdas" -c "C:\Users\Camila\Desktop\Modelo opc3\Final_Models\M_3_F_lq_Set_1\Gustavia_santanderiensis_1.asc" "C:\Users\Camila\Desktop\Modelo opc3\M_variables\Set_1"
+@if errorlevel 1 pause

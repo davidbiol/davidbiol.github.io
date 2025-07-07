@@ -1,0 +1,3050 @@
+Fri Apr 18 16:29:02 COT 2025
+MaxEnt version 3.4.4
+Checking header of C:\Users\Camila\Desktop\Modelo opc2\M_variables\Set_1\bio_1.asc
+Checking header of C:\Users\Camila\Desktop\Modelo opc2\M_variables\Set_1\bio_12.asc
+Checking header of C:\Users\Camila\Desktop\Modelo opc2\M_variables\Set_1\bio_14.asc
+Checking header of C:\Users\Camila\Desktop\Modelo opc2\M_variables\Set_1\bio_15.asc
+Checking header of C:\Users\Camila\Desktop\Modelo opc2\M_variables\Set_1\bio_3.asc
+Checking header of C:\Users\Camila\Desktop\Modelo opc2\M_variables\Set_1\bio_4.asc
+Checking header of C:\Users\Camila\Desktop\Modelo opc2\M_variables\Set_1\bio_7.asc
+Reading samples from gustavia_joint.csv
+Read samples: max memory 932184064, total allocated 96468992, free 82295328, used 14173664, increment 14173664
+Extractor: max memory 932184064, total allocated 96468992, free 81791968, used 14677024, increment 503360
+Extracting random background and sample data
+236229 points with values for all grids
+Adding samples to background in feature space
+Command line used:  environmentallayers=C:\Users\Camila\Desktop\Modelo opc2\M_variables\Set_1 samplesfile=C:\Users\Camila\Desktop\Modelo opc2\gustavia_joint.csv outputdirectory=C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1 betamultiplier=0.8 autofeature=false linear=false quadratic=true product=false threshold=false hinge=false replicates=10 replicatetype=Bootstrap jackknife=true outputformat=cloglog extrapolate=false doclamp=false writeclampgrid=false writemess=false responsecurves=true warnings=false visible=false redoifexists autorun
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1" "samplesfile=C:\Users\Camila\Desktop\Modelo opc2\gustavia_joint.csv" "environmentallayers=C:\Users\Camila\Desktop\Modelo opc2\M_variables\Set_1" randomseed nowarnings noaskoverwrite nowriteclampgrid nowritemess betamultiplier=0.8 replicates=10 replicatetype=bootstrap nolinear noproduct nohinge autorun noextrapolate novisible noautofeature nodoclamp
+Species: Gustavia_santanderiensis_0 Gustavia_santanderiensis_1 Gustavia_santanderiensis_2 Gustavia_santanderiensis_3 Gustavia_santanderiensis_4 Gustavia_santanderiensis_5 Gustavia_santanderiensis_6 Gustavia_santanderiensis_7 Gustavia_santanderiensis_8 Gustavia_santanderiensis_9
+Layers: bio_1 bio_12 bio_14 bio_15 bio_3 bio_4 bio_7
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1
+samplesfile: C:\Users\Camila\Desktop\Modelo opc2\gustavia_joint.csv
+environmentallayers: C:\Users\Camila\Desktop\Modelo opc2\M_variables\Set_1
+randomseed: true
+warnings: false
+askoverwrite: false
+writeclampgrid: false
+writemess: false
+betamultiplier: 0.8
+replicates: 10
+replicatetype: bootstrap
+linear: false
+product: false
+hinge: false
+autorun: true
+extrapolate: false
+visible: false
+autofeature: false
+doclamp: false
+
+getSamples: max memory 932184064, total allocated 96468992, free 75208184, used 21260808, increment 6583784
+Making features
+Time since start: 1.008
+makeFeatures: max memory 932184064, total allocated 96468992, free 73982664, used 22486328, increment 1225520
+Gustavia_santanderiensis_0: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 96468992, free 73457680, used 23011312, increment 524984
+linearPredictor: max memory 932184064, total allocated 96468992, free 73457680, used 23011312, increment 0
+FeaturedSpace: max memory 932184064, total allocated 96468992, free 73457680, used 23011312, increment 0
+Sequential: max memory 932184064, total allocated 96468992, free 73457680, used 23011312, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.324000 loss = 7.271840
+Resulting gain: 1.9405980663471443
+Time since start: 3.85
+Projecting...
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_0.asc
+Time since start: 6.632
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_0.png
+Gustavia_santanderiensis_0 response curves
+Time since start: 9.854
+Response curve: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 153092096, free 114359000, used 38733096, increment 15721784
+Gustavia_santanderiensis_0 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153092096, free 114359000, used 38733096, increment 0
+linearPredictor: max memory 932184064, total allocated 153092096, free 114359000, used 38733096, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153092096, free 114359000, used 38733096, increment 0
+Sequential: max memory 932184064, total allocated 153092096, free 114359000, used 38733096, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.407000 loss = 8.894277
+Resulting gain: 0.3181615372769091
+Gustavia_santanderiensis_0 response curves
+Response curve: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 153092096, free 109842488, used 43249608, increment 4516512
+Gustavia_santanderiensis_0 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153092096, free 109842488, used 43249608, increment 0
+linearPredictor: max memory 932184064, total allocated 153092096, free 109842488, used 43249608, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153092096, free 109842488, used 43249608, increment 0
+Sequential: max memory 932184064, total allocated 153092096, free 109842488, used 43249608, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.221000 loss = 9.136222
+Resulting gain: 0.07621613458116272
+Gustavia_santanderiensis_0 response curves
+Time since start: 10.987
+Response curve: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 153092096, free 105323632, used 47768464, increment 4518856
+Gustavia_santanderiensis_0 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153092096, free 105323632, used 47768464, increment 0
+linearPredictor: max memory 932184064, total allocated 153092096, free 105323632, used 47768464, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153092096, free 105323632, used 47768464, increment 0
+Sequential: max memory 932184064, total allocated 153092096, free 105323632, used 47768464, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.522000 loss = 9.028940
+Resulting gain: 0.1834979812934474
+Gustavia_santanderiensis_0 response curves
+Response curve: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 153092096, free 100786008, used 52306088, increment 4537624
+Gustavia_santanderiensis_0 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153092096, free 100786008, used 52306088, increment 0
+linearPredictor: max memory 932184064, total allocated 153092096, free 100786008, used 52306088, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153092096, free 100786008, used 52306088, increment 0
+Sequential: max memory 932184064, total allocated 153092096, free 100786008, used 52306088, increment 0
+Initial loss: 9.212438170058329
+Time since start: 11.995
+60: time = 0.202000 loss = 8.888153
+Resulting gain: 0.3242850718051855
+Gustavia_santanderiensis_0 response curves
+Response curve: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 153092096, free 94744296, used 58347800, increment 6041712
+Gustavia_santanderiensis_0 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153092096, free 94744296, used 58347800, increment 0
+linearPredictor: max memory 932184064, total allocated 153092096, free 94744296, used 58347800, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153092096, free 94744296, used 58347800, increment 0
+Sequential: max memory 932184064, total allocated 153092096, free 94744296, used 58347800, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.239000 loss = 9.141335
+Resulting gain: 0.07110327704450015
+Gustavia_santanderiensis_0 response curves
+Response curve: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 153092096, free 90222912, used 62869184, increment 4521384
+Gustavia_santanderiensis_0 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153092096, free 90222912, used 62869184, increment 0
+linearPredictor: max memory 932184064, total allocated 153092096, free 90222912, used 62869184, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153092096, free 90222912, used 62869184, increment 0
+Sequential: max memory 932184064, total allocated 153092096, free 90222912, used 62869184, increment 0
+Initial loss: 9.212438170058329
+Time since start: 13.214
+60: time = 0.400000 loss = 9.201571
+Resulting gain: 0.01086719291156335
+Gustavia_santanderiensis_0 response curves
+Response curve: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 153092096, free 86241344, used 66850752, increment 3981568
+Gustavia_santanderiensis_0 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153092096, free 86241344, used 66850752, increment 0
+linearPredictor: max memory 932184064, total allocated 153092096, free 86241344, used 66850752, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153092096, free 86241344, used 66850752, increment 0
+Sequential: max memory 932184064, total allocated 153092096, free 86241344, used 66850752, increment 0
+Initial loss: 9.212438170058329
+20: time = 0.107000 loss = 9.212438
+Resulting gain: 0.0
+Gustavia_santanderiensis_0 response curves
+Jackknife: leave bio_1 out
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 118659656, used 34956728, increment -31894024
+Gustavia_santanderiensis_0 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 118659656, used 34956728, increment 0
+linearPredictor: max memory 932184064, total allocated 153616384, free 118579472, used 35036912, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 118579472, used 35036912, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 118579472, used 35036912, increment 0
+Initial loss: 9.212438170058329
+Time since start: 14.393
+100: time = 0.203000 loss = 8.596206
+Jackknife: leave bio_12 out
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 117080272, used 36536112, increment 1499200
+Gustavia_santanderiensis_0 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 117080272, used 36536112, increment 0
+linearPredictor: max memory 932184064, total allocated 153616384, free 117080272, used 36536112, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 117080272, used 36536112, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 117080272, used 36536112, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.227000 loss = 7.275915
+Jackknife: leave bio_14 out
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 116198248, used 37418136, increment 882024
+Gustavia_santanderiensis_0 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 116118064, used 37498320, increment 80184
+linearPredictor: max memory 932184064, total allocated 153616384, free 116037880, used 37578504, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 116037880, used 37578504, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 116037880, used 37578504, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.256000 loss = 7.271840
+Jackknife: leave bio_15 out
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 114538560, used 39077824, increment 1499320
+Gustavia_santanderiensis_0 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 114538560, used 39077824, increment 0
+linearPredictor: max memory 932184064, total allocated 153616384, free 114538560, used 39077824, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 114538560, used 39077824, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 114538560, used 39077824, increment 0
+Initial loss: 9.212438170058329
+100: time = 0.239000 loss = 8.266477
+Jackknife: leave bio_3 out
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 113656536, used 39959848, increment 882024
+Gustavia_santanderiensis_0 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 113576352, used 40040032, increment 80184
+linearPredictor: max memory 932184064, total allocated 153616384, free 113496168, used 40120216, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 113496168, used 40120216, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 113496168, used 40120216, increment 0
+Initial loss: 9.212438170058329
+80: time = 0.210000 loss = 7.361355
+Jackknife: leave bio_4 out
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 111996968, used 41619416, increment 1499200
+Gustavia_santanderiensis_0 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 111996968, used 41619416, increment 0
+linearPredictor: max memory 932184064, total allocated 153616384, free 111996968, used 41619416, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 111996968, used 41619416, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 111996968, used 41619416, increment 0
+Initial loss: 9.212438170058329
+Time since start: 15.593
+100: time = 0.234000 loss = 7.341901
+Jackknife: leave bio_7 out
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 111114944, used 42501440, increment 882024
+Gustavia_santanderiensis_0 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 111034760, used 42581624, increment 80184
+linearPredictor: max memory 932184064, total allocated 153616384, free 110954576, used 42661808, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 110954576, used 42661808, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 110954576, used 42661808, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.248000 loss = 7.277388
+Jackknife: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 1499256
+Gustavia_santanderiensis_0 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+linearPredictor: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.232000 loss = 8.894277
+Res.gain: 0.3181615372769091
+Jackknife: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+Gustavia_santanderiensis_0 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+linearPredictor: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.185000 loss = 9.136222
+Res.gain: 0.07621613458116272
+Jackknife: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+Gustavia_santanderiensis_0 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+linearPredictor: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.188000 loss = 9.028940
+Res.gain: 0.1834979812934474
+Jackknife: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 109455320, used 44161064, increment 0
+Gustavia_santanderiensis_0 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 109375136, used 44241248, increment 80184
+linearPredictor: max memory 932184064, total allocated 153616384, free 109294952, used 44321432, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 109294952, used 44321432, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 109294952, used 44321432, increment 0
+Initial loss: 9.212438170058329
+Time since start: 16.661
+60: time = 0.191000 loss = 8.888153
+Res.gain: 0.3242850718051855
+Jackknife: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 1499360
+Gustavia_santanderiensis_0 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 0
+linearPredictor: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.215000 loss = 9.141335
+Res.gain: 0.07110327704450015
+Jackknife: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 0
+Gustavia_santanderiensis_0 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 0
+linearPredictor: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.331000 loss = 9.201571
+Res.gain: 0.01086719291156335
+Jackknife: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 0
+Gustavia_santanderiensis_0 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 0
+linearPredictor: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 0
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 107795592, used 45820792, increment 0
+Initial loss: 9.212438170058329
+20: time = 0.103000 loss = 9.212438
+Res.gain: 0.0
+getSamples: max memory 932184064, total allocated 153616384, free 104001944, used 49614440, increment 3793648
+Making features
+makeFeatures: max memory 932184064, total allocated 153616384, free 104001944, used 49614440, increment 0
+Gustavia_santanderiensis_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 153616384, free 104001944, used 49614440, increment 0
+linearPredictor: max memory 932184064, total allocated 153616384, free 102422560, used 51193824, increment 1579384
+FeaturedSpace: max memory 932184064, total allocated 153616384, free 102422560, used 51193824, increment 0
+Sequential: max memory 932184064, total allocated 153616384, free 102422560, used 51193824, increment 0
+Initial loss: 9.212438170058329
+Time since start: 17.716
+120: time = 0.292000 loss = 7.333027
+Resulting gain: 1.8794113251216826
+Time since start: 19.515
+Projecting...
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_1.asc
+Time since start: 21.622
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_1.png
+Gustavia_santanderiensis_1 response curves
+Time since start: 24.043
+Response curve: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 198705152, free 61397160, used 137307992, increment 86114168
+Gustavia_santanderiensis_1 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 198705152, free 61397160, used 137307992, increment 0
+linearPredictor: max memory 932184064, total allocated 198705152, free 61397160, used 137307992, increment 0
+FeaturedSpace: max memory 932184064, total allocated 198705152, free 61397160, used 137307992, increment 0
+Sequential: max memory 932184064, total allocated 198705152, free 61397160, used 137307992, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.247000 loss = 8.836850
+Resulting gain: 0.37558811489743604
+Gustavia_santanderiensis_1 response curves
+Response curve: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 165013928, used 19535448, increment -117772544
+Gustavia_santanderiensis_1 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 165013928, used 19535448, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 165013928, used 19535448, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 165013928, used 19535448, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 165013928, used 19535448, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.244000 loss = 9.071159
+Resulting gain: 0.14127929532716443
+Gustavia_santanderiensis_1 response curves
+Response curve: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 160386896, used 24162480, increment 4627032
+Gustavia_santanderiensis_1 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 160386896, used 24162480, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 160386896, used 24162480, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 160386896, used 24162480, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 160386896, used 24162480, increment 0
+Initial loss: 9.212438170058329
+Time since start: 25.104
+60: time = 0.190000 loss = 9.027128
+Resulting gain: 0.1853097505463701
+Gustavia_santanderiensis_1 response curves
+Response curve: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 158072600, used 26476776, increment 2314296
+Gustavia_santanderiensis_1 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 155760536, used 28788840, increment 2312064
+linearPredictor: max memory 932184064, total allocated 184549376, free 155760536, used 28788840, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 155760536, used 28788840, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 155760536, used 28788840, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.187000 loss = 8.970209
+Resulting gain: 0.24222915559618663
+Gustavia_santanderiensis_1 response curves
+Response curve: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 153448608, used 31100768, increment 2311928
+Gustavia_santanderiensis_1 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 153448608, used 31100768, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 153448608, used 31100768, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 153448608, used 31100768, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 153448608, used 31100768, increment 0
+Initial loss: 9.212438170058329
+Time since start: 26.284
+60: time = 0.233000 loss = 9.101353
+Resulting gain: 0.11108553531994403
+Gustavia_santanderiensis_1 response curves
+Response curve: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 148822432, used 35726944, increment 4626176
+Gustavia_santanderiensis_1 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 148822432, used 35726944, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 148822432, used 35726944, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 148822432, used 35726944, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 148822432, used 35726944, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.248000 loss = 9.170281
+Resulting gain: 0.04215737632182481
+Gustavia_santanderiensis_1 response curves
+Response curve: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 144107992, used 40441384, increment 4714440
+Gustavia_santanderiensis_1 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 144107992, used 40441384, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 144107992, used 40441384, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 144107992, used 40441384, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 144107992, used 40441384, increment 0
+Initial loss: 9.212438170058329
+20: time = 0.123000 loss = 9.212438
+Resulting gain: 0.0
+Gustavia_santanderiensis_1 response curves
+Time since start: 27.876
+Jackknife: leave bio_1 out
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 107036968, used 77512408, increment 37071024
+Gustavia_santanderiensis_1 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 107036968, used 77512408, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 107036968, used 77512408, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 107036968, used 77512408, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 107036968, used 77512408, increment 0
+Initial loss: 9.212438170058329
+100: time = 0.225000 loss = 8.583233
+Jackknife: leave bio_12 out
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 104725048, used 79824328, increment 2311920
+Gustavia_santanderiensis_1 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 104725048, used 79824328, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 104725048, used 79824328, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 104725048, used 79824328, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 104725048, used 79824328, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.240000 loss = 7.356231
+Jackknife: leave bio_14 out
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 104725048, used 79824328, increment 0
+Gustavia_santanderiensis_1 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 102332984, used 82216392, increment 2392064
+linearPredictor: max memory 932184064, total allocated 184549376, free 102332984, used 82216392, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 102332984, used 82216392, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 102332984, used 82216392, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.251000 loss = 7.333154
+Jackknife: leave bio_15 out
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 102332984, used 82216392, increment 0
+Gustavia_santanderiensis_1 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 102332984, used 82216392, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 102332984, used 82216392, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 102332984, used 82216392, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 102332984, used 82216392, increment 0
+Initial loss: 9.212438170058329
+Time since start: 28.892
+100: time = 0.271000 loss = 8.102827
+Jackknife: leave bio_3 out
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 99940920, used 84608456, increment 2392064
+Gustavia_santanderiensis_1 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 99940920, used 84608456, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 99940920, used 84608456, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 99940920, used 84608456, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 99940920, used 84608456, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.335000 loss = 7.437837
+Jackknife: leave bio_4 out
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 99940920, used 84608456, increment 0
+Gustavia_santanderiensis_1 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 99940920, used 84608456, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 99940920, used 84608456, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 99940920, used 84608456, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 99940920, used 84608456, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.256000 loss = 7.452055
+Jackknife: leave bio_7 out
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 99540000, used 85009376, increment 400920
+Gustavia_santanderiensis_1 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 99459816, used 85089560, increment 80184
+linearPredictor: max memory 932184064, total allocated 184549376, free 99379632, used 85169744, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 99379632, used 85169744, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 99379632, used 85169744, increment 0
+Initial loss: 9.212438170058329
+140: time = 0.280000 loss = 7.334552
+Jackknife: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 2312000
+Gustavia_santanderiensis_1 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Initial loss: 9.212438170058329
+Time since start: 30.273
+60: time = 0.486000 loss = 8.836850
+Res.gain: 0.37558811489743604
+Jackknife: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Gustavia_santanderiensis_1 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.187000 loss = 9.071159
+Res.gain: 0.14127929532716443
+Jackknife: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Gustavia_santanderiensis_1 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.187000 loss = 9.027128
+Res.gain: 0.1853097505463701
+Jackknife: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Gustavia_santanderiensis_1 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.191000 loss = 8.970209
+Res.gain: 0.24222915559618663
+Jackknife: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Gustavia_santanderiensis_1 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.242000 loss = 9.101353
+Res.gain: 0.11108553531994403
+Jackknife: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 97067632, used 87481744, increment 0
+Gustavia_santanderiensis_1 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 94675568, used 89873808, increment 2392064
+linearPredictor: max memory 932184064, total allocated 184549376, free 94675568, used 89873808, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 94675568, used 89873808, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 94675568, used 89873808, increment 0
+Initial loss: 9.212438170058329
+Time since start: 31.321
+60: time = 0.226000 loss = 9.170281
+Res.gain: 0.04215737632182481
+Jackknife: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 94675568, used 89873808, increment 0
+Gustavia_santanderiensis_1 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 94675568, used 89873808, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 94675568, used 89873808, increment 0
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 94675568, used 89873808, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 94675568, used 89873808, increment 0
+Initial loss: 9.212438170058329
+20: time = 0.105000 loss = 9.212438
+Res.gain: 0.0
+getSamples: max memory 932184064, total allocated 184549376, free 92360872, used 92188504, increment 2314696
+Making features
+makeFeatures: max memory 932184064, total allocated 184549376, free 92360872, used 92188504, increment 0
+Gustavia_santanderiensis_2: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 184549376, free 92360872, used 92188504, increment 0
+linearPredictor: max memory 932184064, total allocated 184549376, free 92280688, used 92268688, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 184549376, free 92280688, used 92268688, increment 0
+Sequential: max memory 932184064, total allocated 184549376, free 92280688, used 92268688, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.272000 loss = 7.009725
+Resulting gain: 2.2027130287671586
+Time since start: 33.432
+Projecting...
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_2.asc
+Time since start: 36.834
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_2.png
+Time since start: 38.195
+Gustavia_santanderiensis_2 response curves
+Time since start: 41.388
+Response curve: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 115720752, used 55721424, increment -36547264
+Gustavia_santanderiensis_2 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 115720752, used 55721424, increment 0
+linearPredictor: max memory 932184064, total allocated 171442176, free 115720752, used 55721424, increment 0
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 115720752, used 55721424, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 115720752, used 55721424, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.296000 loss = 8.846391
+Resulting gain: 0.366047067931655
+Gustavia_santanderiensis_2 response curves
+Response curve: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 111460456, used 59981720, increment 4260296
+Gustavia_santanderiensis_2 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 111460456, used 59981720, increment 0
+linearPredictor: max memory 932184064, total allocated 171442176, free 111460456, used 59981720, increment 0
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 111460456, used 59981720, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 111460456, used 59981720, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.198000 loss = 9.147050
+Resulting gain: 0.06538774343093223
+Gustavia_santanderiensis_2 response curves
+Time since start: 42.601
+Response curve: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 107311384, used 64130792, increment 4149072
+Gustavia_santanderiensis_2 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 107311384, used 64130792, increment 0
+linearPredictor: max memory 932184064, total allocated 171442176, free 107311384, used 64130792, increment 0
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 107311384, used 64130792, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 107311384, used 64130792, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.181000 loss = 9.088505
+Resulting gain: 0.1239330679912225
+Gustavia_santanderiensis_2 response curves
+Response curve: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 104199064, used 67243112, increment 3112320
+Gustavia_santanderiensis_2 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 104118880, used 67323296, increment 80184
+linearPredictor: max memory 932184064, total allocated 171442176, free 104038696, used 67403480, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 104038696, used 67403480, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 104038696, used 67403480, increment 0
+Initial loss: 9.212438170058329
+Time since start: 43.874
+60: time = 0.283000 loss = 8.867666
+Resulting gain: 0.3447725158435677
+Gustavia_santanderiensis_2 response curves
+Response curve: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 99736480, used 71705696, increment 4302216
+Gustavia_santanderiensis_2 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 99656296, used 71785880, increment 80184
+linearPredictor: max memory 932184064, total allocated 171442176, free 99576112, used 71866064, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 99576112, used 71866064, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 99576112, used 71866064, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.606000 loss = 9.149096
+Resulting gain: 0.06334197771018957
+Gustavia_santanderiensis_2 response curves
+Time since start: 44.921
+Response curve: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 93286712, used 78155464, increment 6289400
+Gustavia_santanderiensis_2 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 93286712, used 78155464, increment 0
+linearPredictor: max memory 932184064, total allocated 171442176, free 93286712, used 78155464, increment 0
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 93286712, used 78155464, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 93286712, used 78155464, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.231000 loss = 9.203156
+Resulting gain: 0.009281733995759822
+Gustavia_santanderiensis_2 response curves
+Response curve: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 89144032, used 82298144, increment 4142680
+Gustavia_santanderiensis_2 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 89144032, used 82298144, increment 0
+linearPredictor: max memory 932184064, total allocated 171442176, free 89144032, used 82298144, increment 0
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 89144032, used 82298144, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 89144032, used 82298144, increment 0
+Initial loss: 9.212438170058329
+40: time = 0.128000 loss = 9.212345
+Resulting gain: 9.303768503698961E-5
+Gustavia_santanderiensis_2 response curves
+Jackknife: leave bio_1 out
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 53516488, used 117925688, increment 35627544
+Gustavia_santanderiensis_2 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 51366600, used 120075576, increment 2149888
+linearPredictor: max memory 932184064, total allocated 171442176, free 51366600, used 120075576, increment 0
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 51366600, used 120075576, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 51366600, used 120075576, increment 0
+Initial loss: 9.212438170058329
+Time since start: 46.163
+120: time = 0.268000 loss = 8.519204
+Jackknife: leave bio_12 out
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 51366600, used 120075576, increment 0
+Gustavia_santanderiensis_2 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 51366600, used 120075576, increment 0
+linearPredictor: max memory 932184064, total allocated 171442176, free 51366600, used 120075576, increment 0
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 51366600, used 120075576, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 51366600, used 120075576, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.263000 loss = 7.017989
+Jackknife: leave bio_14 out
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 50885496, used 120556680, increment 481104
+Gustavia_santanderiensis_2 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 50805312, used 120636864, increment 80184
+linearPredictor: max memory 932184064, total allocated 171442176, free 50725128, used 120717048, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 50725128, used 120717048, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 50725128, used 120717048, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.261000 loss = 7.025854
+Jackknife: leave bio_15 out
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 48655312, used 122786864, increment 2069816
+Gustavia_santanderiensis_2 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 48655312, used 122786864, increment 0
+linearPredictor: max memory 932184064, total allocated 171442176, free 48655312, used 122786864, increment 0
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 48655312, used 122786864, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 48655312, used 122786864, increment 0
+Initial loss: 9.212438170058329
+100: time = 0.306000 loss = 8.296799
+Jackknife: leave bio_3 out
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 48334576, used 123107600, increment 320736
+Gustavia_santanderiensis_2 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 48254392, used 123187784, increment 80184
+linearPredictor: max memory 932184064, total allocated 171442176, free 48174208, used 123267968, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 48174208, used 123267968, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 48174208, used 123267968, increment 0
+Initial loss: 9.212438170058329
+Time since start: 47.252
+100: time = 0.231000 loss = 7.124410
+Jackknife: leave bio_4 out
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 46104504, used 125337672, increment 2069704
+Gustavia_santanderiensis_2 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 46104504, used 125337672, increment 0
+linearPredictor: max memory 932184064, total allocated 171442176, free 46104504, used 125337672, increment 0
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 46104504, used 125337672, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 46104504, used 125337672, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.255000 loss = 7.093405
+Jackknife: leave bio_7 out
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 45783768, used 125658408, increment 320736
+Gustavia_santanderiensis_2 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 45703584, used 125738592, increment 80184
+linearPredictor: max memory 932184064, total allocated 171442176, free 45623400, used 125818776, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 45623400, used 125818776, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 45623400, used 125818776, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.347000 loss = 7.017077
+Jackknife: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 1502136
+Gustavia_santanderiensis_2 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+linearPredictor: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.225000 loss = 8.846391
+Res.gain: 0.366047067931655
+Jackknife: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+Gustavia_santanderiensis_2 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+linearPredictor: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+Initial loss: 9.212438170058329
+Time since start: 48.297
+60: time = 0.198000 loss = 9.147050
+Res.gain: 0.06538774343093223
+Jackknife: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+Gustavia_santanderiensis_2 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+linearPredictor: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+FeaturedSpace: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+Sequential: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.229000 loss = 9.088505
+Res.gain: 0.1239330679912225
+Jackknife: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 171442176, free 44121264, used 127320912, increment 0
+Gustavia_santanderiensis_2 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 167772160, free 143913224, used 23858936, increment -103461976
+linearPredictor: max memory 932184064, total allocated 167772160, free 141914488, used 25857672, increment 1998736
+FeaturedSpace: max memory 932184064, total allocated 167772160, free 141914472, used 25857688, increment 16
+Sequential: max memory 932184064, total allocated 167772160, free 141914472, used 25857688, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.208000 loss = 8.867666
+Res.gain: 0.3447725158435677
+Jackknife: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 31952
+Gustavia_santanderiensis_2 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 0
+linearPredictor: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 0
+FeaturedSpace: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 0
+Sequential: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.222000 loss = 9.149096
+Res.gain: 0.06334197771018957
+Jackknife: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 0
+Gustavia_santanderiensis_2 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 0
+linearPredictor: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 0
+FeaturedSpace: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 0
+Sequential: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.257000 loss = 9.203156
+Res.gain: 0.009281733995759822
+Jackknife: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 0
+Gustavia_santanderiensis_2 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 0
+linearPredictor: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 0
+FeaturedSpace: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 0
+Sequential: max memory 932184064, total allocated 167772160, free 141882520, used 25889640, increment 0
+Initial loss: 9.212438170058329
+Time since start: 49.376
+40: time = 0.140000 loss = 9.212345
+Res.gain: 9.303768503698961E-5
+getSamples: max memory 932184064, total allocated 167772160, free 139094160, used 28678000, increment 2788360
+Making features
+makeFeatures: max memory 932184064, total allocated 167772160, free 138532872, used 29239288, increment 561288
+Gustavia_santanderiensis_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 167772160, free 138452688, used 29319472, increment 80184
+linearPredictor: max memory 932184064, total allocated 167772160, free 138372504, used 29399656, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 167772160, free 138372504, used 29399656, increment 0
+Sequential: max memory 932184064, total allocated 167772160, free 138372504, used 29399656, increment 0
+Initial loss: 9.212438170058329
+140: time = 0.270000 loss = 6.640521
+Resulting gain: 2.571917103059109
+Projecting...
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_3.asc
+Time since start: 51.647
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_3.png
+Gustavia_santanderiensis_3 response curves
+Time since start: 53.852
+Response curve: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 114716280, used 45191560, increment 15791904
+Gustavia_santanderiensis_3 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 114716280, used 45191560, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 114716280, used 45191560, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 114716280, used 45191560, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 114716280, used 45191560, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.269000 loss = 8.819545
+Resulting gain: 0.39289340145417384
+Gustavia_santanderiensis_3 response curves
+Response curve: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 110149184, used 49758656, increment 4567096
+Gustavia_santanderiensis_3 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 110149184, used 49758656, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 110149184, used 49758656, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 110149184, used 49758656, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 110149184, used 49758656, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.223000 loss = 9.063109
+Resulting gain: 0.14932955993988095
+Gustavia_santanderiensis_3 response curves
+Response curve: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 105603104, used 54304736, increment 4546080
+Gustavia_santanderiensis_3 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 105603104, used 54304736, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 105603104, used 54304736, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 105603104, used 54304736, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 105603104, used 54304736, increment 0
+Initial loss: 9.212438170058329
+Time since start: 54.93
+60: time = 0.188000 loss = 8.929375
+Resulting gain: 0.2830633774545088
+Gustavia_santanderiensis_3 response curves
+Response curve: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 101056160, used 58851680, increment 4546944
+Gustavia_santanderiensis_3 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 101056160, used 58851680, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 101056160, used 58851680, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 101056160, used 58851680, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 101056160, used 58851680, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.200000 loss = 8.848604
+Resulting gain: 0.3638340038443513
+Gustavia_santanderiensis_3 response curves
+Response curve: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 96509224, used 63398616, increment 4546936
+Gustavia_santanderiensis_3 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 96509224, used 63398616, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 96509224, used 63398616, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 96509224, used 63398616, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 96509224, used 63398616, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.203000 loss = 9.095532
+Resulting gain: 0.11690569928427585
+Gustavia_santanderiensis_3 response curves
+Time since start: 55.993
+Response curve: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 91962288, used 67945552, increment 4546936
+Gustavia_santanderiensis_3 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 91962288, used 67945552, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 91962288, used 67945552, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 91962288, used 67945552, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 91962288, used 67945552, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.207000 loss = 9.139433
+Resulting gain: 0.07300522685046573
+Gustavia_santanderiensis_3 response curves
+Response curve: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 88378568, used 71529272, increment 3583720
+Gustavia_santanderiensis_3 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 88378568, used 71529272, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 88378568, used 71529272, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 88378568, used 71529272, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 88378568, used 71529272, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.243000 loss = 9.210672
+Resulting gain: 0.0017664239744554777
+Gustavia_santanderiensis_3 response curves
+Time since start: 57.558
+Jackknife: leave bio_1 out
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 51578752, used 108329088, increment 36799816
+Gustavia_santanderiensis_3 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 51578752, used 108329088, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 51578752, used 108329088, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 51578752, used 108329088, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 49786832, used 110121008, increment 1791920
+Initial loss: 9.212438170058329
+100: time = 0.176000 loss = 8.384792
+Jackknife: leave bio_12 out
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 49786832, used 110121008, increment 0
+Gustavia_santanderiensis_3 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 49786832, used 110121008, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 49786832, used 110121008, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 49786832, used 110121008, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 49786832, used 110121008, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.232000 loss = 6.694339
+Jackknife: leave bio_14 out
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 49225544, used 110682296, increment 561288
+Gustavia_santanderiensis_3 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 49145360, used 110762480, increment 80184
+linearPredictor: max memory 932184064, total allocated 159907840, free 49065176, used 110842664, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 49065176, used 110842664, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 49065176, used 110842664, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.241000 loss = 6.641960
+Jackknife: leave bio_15 out
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 47273288, used 112634552, increment 1791888
+Gustavia_santanderiensis_3 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 47273288, used 112634552, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 47273288, used 112634552, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 47273288, used 112634552, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 47273288, used 112634552, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.232000 loss = 7.761789
+Jackknife: leave bio_3 out
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 45401280, used 114506560, increment 1872008
+Gustavia_santanderiensis_3 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 45401280, used 114506560, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 45401280, used 114506560, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 45401280, used 114506560, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 45401280, used 114506560, increment 0
+Initial loss: 9.212438170058329
+Time since start: 58.696
+120: time = 0.229000 loss = 6.912607
+Jackknife: leave bio_4 out
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 45401280, used 114506560, increment 0
+Gustavia_santanderiensis_3 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 45401280, used 114506560, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 45321096, used 114586744, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 45321096, used 114586744, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 45321096, used 114586744, increment 0
+Initial loss: 9.212438170058329
+120: time = 0.653000 loss = 6.902710
+Jackknife: leave bio_7 out
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 43529152, used 116378688, increment 1791944
+Gustavia_santanderiensis_3 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 43529152, used 116378688, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 43529152, used 116378688, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 43529152, used 116378688, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 43529152, used 116378688, increment 0
+Initial loss: 9.212438170058329
+140: time = 0.299000 loss = 6.658644
+Jackknife: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 43529152, used 116378688, increment 0
+Gustavia_santanderiensis_3 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 43529152, used 116378688, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 43529152, used 116378688, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 43529152, used 116378688, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 43529152, used 116378688, increment 0
+Initial loss: 9.212438170058329
+Time since start: 59.927
+60: time = 0.263000 loss = 8.819545
+Res.gain: 0.39289340145417384
+Jackknife: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 43448968, used 116458872, increment 80184
+Gustavia_santanderiensis_3 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 43368784, used 116539056, increment 80184
+linearPredictor: max memory 932184064, total allocated 159907840, free 43288600, used 116619240, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 43288600, used 116619240, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 43288600, used 116619240, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.223000 loss = 9.063109
+Res.gain: 0.14932955993988095
+Jackknife: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 1791840
+Gustavia_santanderiensis_3 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.181000 loss = 8.929375
+Res.gain: 0.2830633774545088
+Jackknife: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+Gustavia_santanderiensis_3 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.188000 loss = 8.848604
+Res.gain: 0.3638340038443513
+Jackknife: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+Gustavia_santanderiensis_3 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.215000 loss = 9.095532
+Res.gain: 0.11690569928427585
+Jackknife: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+Gustavia_santanderiensis_3 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+Initial loss: 9.212438170058329
+Time since start: 60.976
+60: time = 0.226000 loss = 9.139433
+Res.gain: 0.07300522685046573
+Jackknife: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+Gustavia_santanderiensis_3 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 159907840, free 41496760, used 118411080, increment 0
+linearPredictor: max memory 932184064, total allocated 159907840, free 41416576, used 118491264, increment 80184
+FeaturedSpace: max memory 932184064, total allocated 159907840, free 41416576, used 118491264, increment 0
+Sequential: max memory 932184064, total allocated 159907840, free 41416576, used 118491264, increment 0
+Initial loss: 9.212438170058329
+60: time = 0.240000 loss = 9.210672
+Res.gain: 0.0017664239744554777
+getSamples: max memory 932184064, total allocated 156237824, free 123496032, used 32741792, increment -85749472
+Making features
+makeFeatures: max memory 932184064, total allocated 156237824, free 123496032, used 32741792, increment 0
+Gustavia_santanderiensis_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 156237824, free 123496032, used 32741792, increment 0
+linearPredictor: max memory 932184064, total allocated 156237824, free 123496032, used 32741792, increment 0
+FeaturedSpace: max memory 932184064, total allocated 156237824, free 123496032, used 32741792, increment 0
+Sequential: max memory 932184064, total allocated 156237824, free 123496032, used 32741792, increment 0
+Initial loss: 9.212338374638856
+120: time = 0.231000 loss = 7.625460
+Resulting gain: 1.586878382392678
+Projecting...
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_4.asc
+Time since start: 63.512
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_4.png
+Gustavia_santanderiensis_4 response curves
+Time since start: 65.715
+Response curve: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 145227776, free 85952880, used 59274896, increment 26533104
+Gustavia_santanderiensis_4 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 145227776, free 85952880, used 59274896, increment 0
+linearPredictor: max memory 932184064, total allocated 145227776, free 85952880, used 59274896, increment 0
+FeaturedSpace: max memory 932184064, total allocated 145227776, free 85952880, used 59274896, increment 0
+Sequential: max memory 932184064, total allocated 145227776, free 85952880, used 59274896, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.282000 loss = 8.859050
+Resulting gain: 0.35328874303434255
+Gustavia_santanderiensis_4 response curves
+Response curve: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 145227776, free 81887456, used 63340320, increment 4065424
+Gustavia_santanderiensis_4 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 145227776, free 81887456, used 63340320, increment 0
+linearPredictor: max memory 932184064, total allocated 145227776, free 81887456, used 63340320, increment 0
+FeaturedSpace: max memory 932184064, total allocated 145227776, free 81887456, used 63340320, increment 0
+Sequential: max memory 932184064, total allocated 145227776, free 81887456, used 63340320, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.227000 loss = 9.178298
+Resulting gain: 0.034040328176175194
+Gustavia_santanderiensis_4 response curves
+Response curve: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 145227776, free 77822032, used 67405744, increment 4065424
+Gustavia_santanderiensis_4 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 145227776, free 77822032, used 67405744, increment 0
+linearPredictor: max memory 932184064, total allocated 145227776, free 77822032, used 67405744, increment 0
+FeaturedSpace: max memory 932184064, total allocated 145227776, free 77822032, used 67405744, increment 0
+Sequential: max memory 932184064, total allocated 145227776, free 77822032, used 67405744, increment 0
+Initial loss: 9.212338374638856
+Time since start: 66.816
+60: time = 0.180000 loss = 9.183636
+Resulting gain: 0.02870207244409073
+Gustavia_santanderiensis_4 response curves
+Response curve: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 145227776, free 73165128, used 72062648, increment 4656904
+Gustavia_santanderiensis_4 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 145227776, free 73165128, used 72062648, increment 0
+linearPredictor: max memory 932184064, total allocated 145227776, free 73165128, used 72062648, increment 0
+FeaturedSpace: max memory 932184064, total allocated 145227776, free 73165128, used 72062648, increment 0
+Sequential: max memory 932184064, total allocated 145227776, free 73165128, used 72062648, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.214000 loss = 9.014295
+Resulting gain: 0.19804287518624442
+Gustavia_santanderiensis_4 response curves
+Response curve: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 145227776, free 69099704, used 76128072, increment 4065424
+Gustavia_santanderiensis_4 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 145227776, free 69099704, used 76128072, increment 0
+linearPredictor: max memory 932184064, total allocated 145227776, free 69099704, used 76128072, increment 0
+FeaturedSpace: max memory 932184064, total allocated 145227776, free 69099704, used 76128072, increment 0
+Sequential: max memory 932184064, total allocated 145227776, free 69099704, used 76128072, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.204000 loss = 9.154661
+Resulting gain: 0.05767785310891682
+Gustavia_santanderiensis_4 response curves
+Response curve: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 145227776, free 64442824, used 80784952, increment 4656880
+Gustavia_santanderiensis_4 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 145227776, free 64442824, used 80784952, increment 0
+Time since start: 67.817
+linearPredictor: max memory 932184064, total allocated 145227776, free 64442824, used 80784952, increment 0
+FeaturedSpace: max memory 932184064, total allocated 145227776, free 64442824, used 80784952, increment 0
+Sequential: max memory 932184064, total allocated 145227776, free 64442824, used 80784952, increment 0
+Initial loss: 9.212338374638856
+20: time = 0.098000 loss = 9.212338
+Resulting gain: 0.0
+Gustavia_santanderiensis_4 response curves
+Response curve: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 145227776, free 60377160, used 84850616, increment 4065664
+Gustavia_santanderiensis_4 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 145227776, free 60377160, used 84850616, increment 0
+linearPredictor: max memory 932184064, total allocated 145227776, free 60377160, used 84850616, increment 0
+FeaturedSpace: max memory 932184064, total allocated 145227776, free 60377160, used 84850616, increment 0
+Sequential: max memory 932184064, total allocated 145227776, free 60377160, used 84850616, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.187000 loss = 9.211801
+Resulting gain: 5.37205459860246E-4
+Gustavia_santanderiensis_4 response curves
+Jackknife: leave bio_1 out
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 97881384, used 45249240, increment -39601376
+Gustavia_santanderiensis_4 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 97801208, used 45329416, increment 80176
+linearPredictor: max memory 932184064, total allocated 143130624, free 97721032, used 45409592, increment 80176
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 97721032, used 45409592, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 97721032, used 45409592, increment 0
+Initial loss: 9.212338374638856
+120: time = 0.206000 loss = 8.768552
+Jackknife: leave bio_12 out
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 96222048, used 46908576, increment 1498984
+Gustavia_santanderiensis_4 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 96222048, used 46908576, increment 0
+linearPredictor: max memory 932184064, total allocated 143130624, free 96222048, used 46908576, increment 0
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 96222048, used 46908576, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 96222048, used 46908576, increment 0
+Initial loss: 9.212338374638856
+Time since start: 69.053
+120: time = 0.259000 loss = 7.625460
+Jackknife: leave bio_14 out
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 95420288, used 47710336, increment 801760
+Gustavia_santanderiensis_4 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 93841192, used 49289432, increment 1579096
+linearPredictor: max memory 932184064, total allocated 143130624, free 93841192, used 49289432, increment 0
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 93841192, used 49289432, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 93841192, used 49289432, increment 0
+Initial loss: 9.212338374638856
+120: time = 0.253000 loss = 7.684648
+Jackknife: leave bio_15 out
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 93841192, used 49289432, increment 0
+Gustavia_santanderiensis_4 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 93841192, used 49289432, increment 0
+linearPredictor: max memory 932184064, total allocated 143130624, free 93841192, used 49289432, increment 0
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 93841192, used 49289432, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 93841192, used 49289432, increment 0
+Initial loss: 9.212338374638856
+100: time = 0.230000 loss = 8.564083
+Jackknife: leave bio_3 out
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 92262096, used 50868528, increment 1579096
+Gustavia_santanderiensis_4 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 92262096, used 50868528, increment 0
+linearPredictor: max memory 932184064, total allocated 143130624, free 92262096, used 50868528, increment 0
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 92262096, used 50868528, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 92262096, used 50868528, increment 0
+Initial loss: 9.212338374638856
+100: time = 0.213000 loss = 7.638009
+Jackknife: leave bio_4 out
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 91700864, used 51429760, increment 561232
+Gustavia_santanderiensis_4 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 90121768, used 53008856, increment 1579096
+linearPredictor: max memory 932184064, total allocated 143130624, free 90121768, used 53008856, increment 0
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 90121768, used 53008856, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 90121768, used 53008856, increment 0
+Initial loss: 9.212338374638856
+100: time = 0.212000 loss = 7.630263
+Jackknife: leave bio_7 out
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 90121768, used 53008856, increment 0
+Gustavia_santanderiensis_4 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 90121768, used 53008856, increment 0
+linearPredictor: max memory 932184064, total allocated 143130624, free 90121768, used 53008856, increment 0
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 90121768, used 53008856, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 90121768, used 53008856, increment 0
+Initial loss: 9.212338374638856
+Time since start: 70.194
+100: time = 0.208000 loss = 7.630994
+Jackknife: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 90041592, used 53089032, increment 80176
+Gustavia_santanderiensis_4 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 1579096
+linearPredictor: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.246000 loss = 8.859050
+Res.gain: 0.35328874303434255
+Jackknife: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+Gustavia_santanderiensis_4 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+linearPredictor: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.484000 loss = 9.178298
+Res.gain: 0.034040328176175194
+Jackknife: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+Gustavia_santanderiensis_4 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+linearPredictor: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.210000 loss = 9.183636
+Res.gain: 0.02870207244409073
+Jackknife: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+Gustavia_santanderiensis_4 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+linearPredictor: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+Initial loss: 9.212338374638856
+Time since start: 71.356
+60: time = 0.209000 loss = 9.014295
+Res.gain: 0.19804287518624442
+Jackknife: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+Gustavia_santanderiensis_4 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 88462496, used 54668128, increment 0
+linearPredictor: max memory 932184064, total allocated 143130624, free 86883400, used 56247224, increment 1579096
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 86883400, used 56247224, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 86883400, used 56247224, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.214000 loss = 9.154661
+Res.gain: 0.05767785310891682
+Jackknife: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 86883400, used 56247224, increment 0
+Gustavia_santanderiensis_4 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 86883400, used 56247224, increment 0
+linearPredictor: max memory 932184064, total allocated 143130624, free 86883400, used 56247224, increment 0
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 86883400, used 56247224, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 86883400, used 56247224, increment 0
+Initial loss: 9.212338374638856
+20: time = 0.105000 loss = 9.212338
+Res.gain: 0.0
+Jackknife: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 86883400, used 56247224, increment 0
+Gustavia_santanderiensis_4 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 86883400, used 56247224, increment 0
+linearPredictor: max memory 932184064, total allocated 143130624, free 86883400, used 56247224, increment 0
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 86883400, used 56247224, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 86883400, used 56247224, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.178000 loss = 9.211801
+Res.gain: 5.37205459860246E-4
+getSamples: max memory 932184064, total allocated 143130624, free 84592048, used 58538576, increment 2291352
+Making features
+makeFeatures: max memory 932184064, total allocated 143130624, free 83012952, used 60117672, increment 1579096
+Gustavia_santanderiensis_5: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 143130624, free 83012952, used 60117672, increment 0
+linearPredictor: max memory 932184064, total allocated 143130624, free 83012952, used 60117672, increment 0
+FeaturedSpace: max memory 932184064, total allocated 143130624, free 83012952, used 60117672, increment 0
+Sequential: max memory 932184064, total allocated 143130624, free 83012952, used 60117672, increment 0
+Initial loss: 9.212338374638856
+120: time = 0.255000 loss = 6.988573
+Resulting gain: 2.223765830240084
+Time since start: 72.605
+Projecting...
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_5.asc
+Time since start: 74.11
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_5.png
+Gustavia_santanderiensis_5 response curves
+Time since start: 76.413
+Response curve: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 134742016, free 72257960, used 62484056, increment 2366384
+Gustavia_santanderiensis_5 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 134742016, free 72257960, used 62484056, increment 0
+linearPredictor: max memory 932184064, total allocated 134742016, free 72257960, used 62484056, increment 0
+FeaturedSpace: max memory 932184064, total allocated 134742016, free 72257960, used 62484056, increment 0
+Sequential: max memory 932184064, total allocated 134742016, free 72257960, used 62484056, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.265000 loss = 8.920071
+Resulting gain: 0.29226752797304556
+Gustavia_santanderiensis_5 response curves
+Response curve: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 134742016, free 68677336, used 66064680, increment 3580624
+Gustavia_santanderiensis_5 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 134742016, free 68677336, used 66064680, increment 0
+linearPredictor: max memory 932184064, total allocated 134742016, free 68677336, used 66064680, increment 0
+FeaturedSpace: max memory 932184064, total allocated 134742016, free 68677336, used 66064680, increment 0
+Sequential: max memory 932184064, total allocated 134742016, free 68677336, used 66064680, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.244000 loss = 9.155430
+Resulting gain: 0.05690799549024739
+Gustavia_santanderiensis_5 response curves
+Response curve: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 134742016, free 63432912, used 71309104, increment 5244424
+Gustavia_santanderiensis_5 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 134742016, free 63432912, used 71309104, increment 0
+linearPredictor: max memory 932184064, total allocated 134742016, free 63432912, used 71309104, increment 0
+FeaturedSpace: max memory 932184064, total allocated 134742016, free 63432912, used 71309104, increment 0
+Sequential: max memory 932184064, total allocated 134742016, free 63432912, used 71309104, increment 0
+Initial loss: 9.212338374638856
+Time since start: 77.579
+60: time = 0.221000 loss = 8.888728
+Resulting gain: 0.32361081461747787
+Gustavia_santanderiensis_5 response curves
+Response curve: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 134742016, free 59849872, used 74892144, increment 3583040
+Gustavia_santanderiensis_5 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 134742016, free 59849872, used 74892144, increment 0
+linearPredictor: max memory 932184064, total allocated 134742016, free 59849872, used 74892144, increment 0
+FeaturedSpace: max memory 932184064, total allocated 134742016, free 59849872, used 74892144, increment 0
+Sequential: max memory 932184064, total allocated 134742016, free 59849872, used 74892144, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.212000 loss = 8.818096
+Resulting gain: 0.39424204396396156
+Gustavia_santanderiensis_5 response curves
+Response curve: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 134742016, free 54595808, used 80146208, increment 5254064
+Gustavia_santanderiensis_5 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 134742016, free 54595808, used 80146208, increment 0
+linearPredictor: max memory 932184064, total allocated 134742016, free 54595808, used 80146208, increment 0
+FeaturedSpace: max memory 932184064, total allocated 134742016, free 54595808, used 80146208, increment 0
+Sequential: max memory 932184064, total allocated 134742016, free 54595808, used 80146208, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.173000 loss = 9.196418
+Resulting gain: 0.01592055327413533
+Gustavia_santanderiensis_5 response curves
+Response curve: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 134742016, free 51012768, used 83729248, increment 3583040
+Gustavia_santanderiensis_5 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 134742016, free 51012768, used 83729248, increment 0
+linearPredictor: max memory 932184064, total allocated 134742016, free 51012768, used 83729248, increment 0
+FeaturedSpace: max memory 932184064, total allocated 134742016, free 51012768, used 83729248, increment 0
+Sequential: max memory 932184064, total allocated 134742016, free 51012768, used 83729248, increment 0
+Initial loss: 9.212338374638856
+Time since start: 78.675
+20: time = 0.105000 loss = 9.212338
+Resulting gain: 0.0
+Gustavia_santanderiensis_5 response curves
+Response curve: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 134742016, free 46919056, used 87822960, increment 4093712
+Gustavia_santanderiensis_5 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 134742016, free 45528600, used 89213416, increment 1390456
+linearPredictor: max memory 932184064, total allocated 134742016, free 45528600, used 89213416, increment 0
+FeaturedSpace: max memory 932184064, total allocated 134742016, free 45528600, used 89213416, increment 0
+Sequential: max memory 932184064, total allocated 134742016, free 45528600, used 89213416, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.226000 loss = 9.204777
+Resulting gain: 0.007561012178031845
+Gustavia_santanderiensis_5 response curves
+Jackknife: leave bio_1 out
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 72926216, used 58670072, increment -30543344
+Gustavia_santanderiensis_5 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 72846040, used 58750248, increment 80176
+linearPredictor: max memory 932184064, total allocated 131596288, free 72765864, used 58830424, increment 80176
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 72765864, used 58830424, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 72765864, used 58830424, increment 0
+Initial loss: 9.212338374638856
+120: time = 0.199000 loss = 8.372800
+Jackknife: leave bio_12 out
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 71497728, used 60098560, increment 1268136
+Gustavia_santanderiensis_5 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 71497728, used 60098560, increment 0
+linearPredictor: max memory 932184064, total allocated 131596288, free 71497728, used 60098560, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 71497728, used 60098560, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 71497728, used 60098560, increment 0
+Initial loss: 9.212338374638856
+Time since start: 79.814
+120: time = 0.224000 loss = 6.996147
+Jackknife: leave bio_14 out
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 70225880, used 61370408, increment 1271848
+Gustavia_santanderiensis_5 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 70225880, used 61370408, increment 0
+linearPredictor: max memory 932184064, total allocated 131596288, free 70225880, used 61370408, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 70225880, used 61370408, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 70225880, used 61370408, increment 0
+Initial loss: 9.212338374638856
+120: time = 0.313000 loss = 7.002683
+Jackknife: leave bio_15 out
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 68957760, used 62638528, increment 1268120
+Gustavia_santanderiensis_5 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 68957760, used 62638528, increment 0
+linearPredictor: max memory 932184064, total allocated 131596288, free 68957760, used 62638528, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 68957760, used 62638528, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 68957760, used 62638528, increment 0
+Initial loss: 9.212338374638856
+100: time = 0.214000 loss = 8.042016
+Jackknife: leave bio_3 out
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 67995648, used 63600640, increment 962112
+Gustavia_santanderiensis_5 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 66647384, used 64948904, increment 1348264
+linearPredictor: max memory 932184064, total allocated 131596288, free 66647384, used 64948904, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 66647384, used 64948904, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 66647384, used 64948904, increment 0
+Initial loss: 9.212338374638856
+120: time = 0.229000 loss = 7.195587
+Jackknife: leave bio_4 out
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 66647384, used 64948904, increment 0
+Gustavia_santanderiensis_5 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 66647384, used 64948904, increment 0
+linearPredictor: max memory 932184064, total allocated 131596288, free 66567208, used 65029080, increment 80176
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 66567208, used 65029080, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 66567208, used 65029080, increment 0
+Initial loss: 9.212338374638856
+Time since start: 80.832
+120: time = 0.236000 loss = 7.115249
+Jackknife: leave bio_7 out
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 65299000, used 66297288, increment 1268208
+Gustavia_santanderiensis_5 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 65299000, used 66297288, increment 0
+linearPredictor: max memory 932184064, total allocated 131596288, free 65299000, used 66297288, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 65299000, used 66297288, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 65299000, used 66297288, increment 0
+Initial loss: 9.212338374638856
+140: time = 0.255000 loss = 6.988573
+Jackknife: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 1268152
+Gustavia_santanderiensis_5 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 0
+linearPredictor: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.223000 loss = 8.920071
+Res.gain: 0.29226752797304556
+Jackknife: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 0
+Gustavia_santanderiensis_5 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 0
+linearPredictor: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 0
+Initial loss: 9.212338374638856
+Time since start: 81.886
+60: time = 0.563000 loss = 9.155430
+Res.gain: 0.05690799549024739
+Jackknife: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 0
+Gustavia_santanderiensis_5 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 0
+linearPredictor: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 64030848, used 67565440, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.229000 loss = 8.888728
+Res.gain: 0.32361081461747787
+Jackknife: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 1348264
+Gustavia_santanderiensis_5 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+linearPredictor: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.199000 loss = 8.818096
+Res.gain: 0.39424204396396156
+Jackknife: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+Gustavia_santanderiensis_5 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+linearPredictor: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.176000 loss = 9.196418
+Res.gain: 0.01592055327413533
+Jackknife: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+Gustavia_santanderiensis_5 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+linearPredictor: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+Initial loss: 9.212338374638856
+20: time = 0.118000 loss = 9.212338
+Res.gain: 0.0
+Jackknife: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+Gustavia_santanderiensis_5 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+linearPredictor: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 62682584, used 68913704, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.225000 loss = 9.204777
+Res.gain: 0.007561012178031845
+Time since start: 82.939
+getSamples: max memory 932184064, total allocated 131596288, free 58875480, used 72720808, increment 3807104
+Making features
+makeFeatures: max memory 932184064, total allocated 131596288, free 58634952, used 72961336, increment 240528
+Gustavia_santanderiensis_6: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131596288, free 58554776, used 73041512, increment 80176
+linearPredictor: max memory 932184064, total allocated 131596288, free 58474600, used 73121688, increment 80176
+FeaturedSpace: max memory 932184064, total allocated 131596288, free 58474600, used 73121688, increment 0
+Sequential: max memory 932184064, total allocated 131596288, free 58474600, used 73121688, increment 0
+Initial loss: 9.212338374638856
+120: time = 0.265000 loss = 7.533034
+Resulting gain: 1.6793047234466307
+Projecting...
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_6.asc
+Time since start: 87.287
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_6.png
+Gustavia_santanderiensis_6 response curves
+Time since start: 90.075
+Response curve: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 139984896, free 31206304, used 108778592, increment 35656904
+Gustavia_santanderiensis_6 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 139984896, free 31206304, used 108778592, increment 0
+linearPredictor: max memory 932184064, total allocated 139984896, free 31126128, used 108858768, increment 80176
+FeaturedSpace: max memory 932184064, total allocated 139984896, free 31126128, used 108858768, increment 0
+Sequential: max memory 932184064, total allocated 139984896, free 31126128, used 108858768, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.249000 loss = 8.874949
+Resulting gain: 0.33738982047288246
+Gustavia_santanderiensis_6 response curves
+Response curve: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 95545720, used 44963464, increment -63895304
+Gustavia_santanderiensis_6 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 95545720, used 44963464, increment 0
+linearPredictor: max memory 932184064, total allocated 140509184, free 95545720, used 44963464, increment 0
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 95545720, used 44963464, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 95545720, used 44963464, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.212000 loss = 9.151360
+Resulting gain: 0.0609783877523693
+Gustavia_santanderiensis_6 response curves
+Response curve: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 91794648, used 48714536, increment 3751072
+Gustavia_santanderiensis_6 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 91794648, used 48714536, increment 0
+linearPredictor: max memory 932184064, total allocated 140509184, free 91794648, used 48714536, increment 0
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 91794648, used 48714536, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 91794648, used 48714536, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.173000 loss = 9.053186
+Resulting gain: 0.15915208573415462
+Gustavia_santanderiensis_6 response curves
+Time since start: 91.231
+Response curve: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 87606904, used 52902280, increment 4187744
+Gustavia_santanderiensis_6 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 87606904, used 52902280, increment 0
+linearPredictor: max memory 932184064, total allocated 140509184, free 87526728, used 52982456, increment 80176
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 87526728, used 52982456, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 87526728, used 52982456, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.208000 loss = 8.990807
+Resulting gain: 0.22153149598974053
+Gustavia_santanderiensis_6 response curves
+Response curve: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 83251608, used 57257576, increment 4275120
+Gustavia_santanderiensis_6 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 83171432, used 57337752, increment 80176
+linearPredictor: max memory 932184064, total allocated 140509184, free 83091256, used 57417928, increment 80176
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 83091256, used 57417928, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 83091256, used 57417928, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.234000 loss = 9.169868
+Resulting gain: 0.04246987984108941
+Gustavia_santanderiensis_6 response curves
+Time since start: 92.315
+Response curve: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 78887136, used 61622048, increment 4204120
+Gustavia_santanderiensis_6 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 77412664, used 63096520, increment 1474472
+linearPredictor: max memory 932184064, total allocated 140509184, free 77412664, used 63096520, increment 0
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 77412664, used 63096520, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 77412664, used 63096520, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.227000 loss = 9.208212
+Resulting gain: 0.0041258996968718264
+Gustavia_santanderiensis_6 response curves
+Response curve: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 73543976, used 66965208, increment 3868688
+Gustavia_santanderiensis_6 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 73543976, used 66965208, increment 0
+linearPredictor: max memory 932184064, total allocated 140509184, free 73543976, used 66965208, increment 0
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 73543976, used 66965208, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 73543976, used 66965208, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.234000 loss = 9.208164
+Resulting gain: 0.004174191510918135
+Gustavia_santanderiensis_6 response curves
+Time since start: 93.759
+Jackknife: leave bio_1 out
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 35804984, used 104704200, increment 37738992
+Gustavia_santanderiensis_6 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 35804984, used 104704200, increment 0
+linearPredictor: max memory 932184064, total allocated 140509184, free 35804984, used 104704200, increment 0
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 35804984, used 104704200, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 35804984, used 104704200, increment 0
+Initial loss: 9.212338374638856
+120: time = 0.232000 loss = 8.704349
+Jackknife: leave bio_12 out
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 35804984, used 104704200, increment 0
+Gustavia_santanderiensis_6 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 35724808, used 104784376, increment 80176
+linearPredictor: max memory 932184064, total allocated 140509184, free 35644632, used 104864552, increment 80176
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 35644632, used 104864552, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 35644632, used 104864552, increment 0
+Initial loss: 9.212338374638856
+120: time = 0.265000 loss = 7.533932
+Jackknife: leave bio_14 out
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 34250216, used 106258968, increment 1394416
+Gustavia_santanderiensis_6 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 34250216, used 106258968, increment 0
+linearPredictor: max memory 932184064, total allocated 140509184, free 34250216, used 106258968, increment 0
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 34250216, used 106258968, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 34250216, used 106258968, increment 0
+Initial loss: 9.212338374638856
+120: time = 0.253000 loss = 7.535543
+Jackknife: leave bio_15 out
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 33368280, used 107140904, increment 881936
+Gustavia_santanderiensis_6 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 31893808, used 108615376, increment 1474472
+linearPredictor: max memory 932184064, total allocated 140509184, free 31893808, used 108615376, increment 0
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 31893808, used 108615376, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 31893808, used 108615376, increment 0
+Initial loss: 9.212338374638856
+Time since start: 94.776
+100: time = 0.243000 loss = 8.288917
+Jackknife: leave bio_3 out
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 31893808, used 108615376, increment 0
+Gustavia_santanderiensis_6 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 31893808, used 108615376, increment 0
+linearPredictor: max memory 932184064, total allocated 140509184, free 31893808, used 108615376, increment 0
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 31893808, used 108615376, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 31893808, used 108615376, increment 0
+Initial loss: 9.212338374638856
+120: time = 0.267000 loss = 7.653601
+Jackknife: leave bio_4 out
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 30499400, used 110009784, increment 1394408
+Gustavia_santanderiensis_6 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 30499400, used 110009784, increment 0
+linearPredictor: max memory 932184064, total allocated 140509184, free 30499400, used 110009784, increment 0
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 30499400, used 110009784, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 30499400, used 110009784, increment 0
+Initial loss: 9.212338374638856
+120: time = 0.266000 loss = 7.632132
+Jackknife: leave bio_7 out
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 29617464, used 110891720, increment 881936
+Gustavia_santanderiensis_6 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 29537288, used 110971896, increment 80176
+linearPredictor: max memory 932184064, total allocated 140509184, free 29457112, used 111052072, increment 80176
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 29457112, used 111052072, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 29457112, used 111052072, increment 0
+Initial loss: 9.212338374638856
+120: time = 0.240000 loss = 7.533034
+Jackknife: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 28607328, used 111901856, increment 849784
+Gustavia_santanderiensis_6 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 28607328, used 111901856, increment 0
+linearPredictor: max memory 932184064, total allocated 140509184, free 28607328, used 111901856, increment 0
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 28607328, used 111901856, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 28607328, used 111901856, increment 0
+Initial loss: 9.212338374638856
+Time since start: 95.802
+60: time = 0.230000 loss = 8.874949
+Res.gain: 0.33738982047288246
+Jackknife: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 140509184, free 28607328, used 111901856, increment 0
+Gustavia_santanderiensis_6 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 140509184, free 28607328, used 111901856, increment 0
+linearPredictor: max memory 932184064, total allocated 140509184, free 28607328, used 111901856, increment 0
+FeaturedSpace: max memory 932184064, total allocated 140509184, free 28607328, used 111901856, increment 0
+Sequential: max memory 932184064, total allocated 140509184, free 28607328, used 111901856, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.203000 loss = 9.151360
+Res.gain: 0.0609783877523693
+Jackknife: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment -71554032
+Gustavia_santanderiensis_6 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+linearPredictor: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+FeaturedSpace: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+Sequential: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.161000 loss = 9.053186
+Res.gain: 0.15915208573415462
+Jackknife: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+Gustavia_santanderiensis_6 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+linearPredictor: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+FeaturedSpace: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+Sequential: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.204000 loss = 8.990807
+Res.gain: 0.22153149598974053
+Jackknife: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+Gustavia_santanderiensis_6 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+linearPredictor: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+FeaturedSpace: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+Sequential: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.192000 loss = 9.169868
+Res.gain: 0.04246987984108941
+Jackknife: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+Gustavia_santanderiensis_6 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 135266304, free 94918480, used 40347824, increment 0
+linearPredictor: max memory 932184064, total allocated 135266304, free 94838304, used 40428000, increment 80176
+FeaturedSpace: max memory 932184064, total allocated 135266304, free 94838304, used 40428000, increment 0
+Sequential: max memory 932184064, total allocated 135266304, free 94838304, used 40428000, increment 0
+Initial loss: 9.212338374638856
+60: time = 0.219000 loss = 9.208212
+Res.gain: 0.0041258996968718264
+Jackknife: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 135266304, free 93412176, used 41854128, increment 1426128
+Gustavia_santanderiensis_6 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 135266304, free 93412176, used 41854128, increment 0
+linearPredictor: max memory 932184064, total allocated 135266304, free 93412176, used 41854128, increment 0
+FeaturedSpace: max memory 932184064, total allocated 135266304, free 93412176, used 41854128, increment 0
+Sequential: max memory 932184064, total allocated 135266304, free 93412176, used 41854128, increment 0
+Initial loss: 9.212338374638856
+Time since start: 97.017
+60: time = 0.215000 loss = 9.208164
+Res.gain: 0.004174191510918135
+getSamples: max memory 932184064, total allocated 135266304, free 90714640, used 44551664, increment 2697536
+Making features
+makeFeatures: max memory 932184064, total allocated 135266304, free 90474136, used 44792168, increment 240504
+Gustavia_santanderiensis_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 135266304, free 90393968, used 44872336, increment 80168
+linearPredictor: max memory 932184064, total allocated 135266304, free 90313800, used 44952504, increment 80168
+FeaturedSpace: max memory 932184064, total allocated 135266304, free 90313800, used 44952504, increment 0
+Sequential: max memory 932184064, total allocated 135266304, free 90313800, used 44952504, increment 0
+Initial loss: 9.212238569259263
+120: time = 0.243000 loss = 7.434131
+Resulting gain: 1.7781073779227476
+Projecting...
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_7.asc
+Time since start: 99.159
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_7.png
+Gustavia_santanderiensis_7 response curves
+Time since start: 100.993
+Response curve: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 132120576, free 62372696, used 69747880, increment 24795376
+Gustavia_santanderiensis_7 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 132120576, free 62372696, used 69747880, increment 0
+linearPredictor: max memory 932184064, total allocated 132120576, free 62372696, used 69747880, increment 0
+FeaturedSpace: max memory 932184064, total allocated 132120576, free 62372696, used 69747880, increment 0
+Sequential: max memory 932184064, total allocated 132120576, free 62372696, used 69747880, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.637000 loss = 8.837748
+Resulting gain: 0.3744901270940648
+Gustavia_santanderiensis_7 response curves
+Response curve: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 132120576, free 57856464, used 74264112, increment 4516232
+Gustavia_santanderiensis_7 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 132120576, free 57856464, used 74264112, increment 0
+linearPredictor: max memory 932184064, total allocated 132120576, free 57856464, used 74264112, increment 0
+FeaturedSpace: max memory 932184064, total allocated 132120576, free 57856464, used 74264112, increment 0
+Sequential: max memory 932184064, total allocated 132120576, free 57856464, used 74264112, increment 0
+Initial loss: 9.212238569259263
+Time since start: 102.01
+60: time = 0.195000 loss = 9.191373
+Resulting gain: 0.02086573155341931
+Gustavia_santanderiensis_7 response curves
+Response curve: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 132120576, free 54443928, used 77676648, increment 3412536
+Gustavia_santanderiensis_7 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 132120576, free 53180000, used 78940576, increment 1263928
+linearPredictor: max memory 932184064, total allocated 132120576, free 53180000, used 78940576, increment 0
+FeaturedSpace: max memory 932184064, total allocated 132120576, free 53180000, used 78940576, increment 0
+Sequential: max memory 932184064, total allocated 132120576, free 53180000, used 78940576, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.224000 loss = 9.127148
+Resulting gain: 0.08509087101634627
+Gustavia_santanderiensis_7 response curves
+Response curve: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 132120576, free 49847632, used 82272944, increment 3332368
+Gustavia_santanderiensis_7 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 132120576, free 49847632, used 82272944, increment 0
+linearPredictor: max memory 932184064, total allocated 132120576, free 49847632, used 82272944, increment 0
+FeaturedSpace: max memory 932184064, total allocated 132120576, free 49847632, used 82272944, increment 0
+Sequential: max memory 932184064, total allocated 132120576, free 49847632, used 82272944, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.249000 loss = 8.977962
+Resulting gain: 0.234276637523811
+Gustavia_santanderiensis_7 response curves
+Time since start: 103.486
+Response curve: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 132120576, free 45327480, used 86793096, increment 4520152
+Gustavia_santanderiensis_7 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 132120576, free 45327480, used 86793096, increment 0
+linearPredictor: max memory 932184064, total allocated 132120576, free 45327480, used 86793096, increment 0
+FeaturedSpace: max memory 932184064, total allocated 132120576, free 45327480, used 86793096, increment 0
+Sequential: max memory 932184064, total allocated 132120576, free 45327480, used 86793096, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.186000 loss = 9.189155
+Resulting gain: 0.023083564795301825
+Gustavia_santanderiensis_7 response curves
+Response curve: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 132120576, free 40572744, used 91547832, increment 4754736
+Gustavia_santanderiensis_7 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 132120576, free 40572744, used 91547832, increment 0
+linearPredictor: max memory 932184064, total allocated 132120576, free 40572744, used 91547832, increment 0
+FeaturedSpace: max memory 932184064, total allocated 132120576, free 40572744, used 91547832, increment 0
+Sequential: max memory 932184064, total allocated 132120576, free 40572744, used 91547832, increment 0
+Initial loss: 9.212238569259263
+20: time = 0.109000 loss = 9.212239
+Resulting gain: 0.0
+Gustavia_santanderiensis_7 response curves
+Response curve: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 132120576, free 36056512, used 96064064, increment 4516232
+Gustavia_santanderiensis_7 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 132120576, free 36056512, used 96064064, increment 0
+linearPredictor: max memory 932184064, total allocated 132120576, free 36056512, used 96064064, increment 0
+FeaturedSpace: max memory 932184064, total allocated 132120576, free 36056512, used 96064064, increment 0
+Sequential: max memory 932184064, total allocated 132120576, free 36056512, used 96064064, increment 0
+Initial loss: 9.212238569259263
+Time since start: 104.521
+60: time = 0.247000 loss = 9.193954
+Resulting gain: 0.0182844452123625
+Gustavia_santanderiensis_7 response curves
+Jackknife: leave bio_1 out
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 51036192, used 74792928, increment -21271136
+Gustavia_santanderiensis_7 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 51036192, used 74792928, increment 0
+linearPredictor: max memory 932184064, total allocated 125829120, free 51036192, used 74792928, increment 0
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 51036192, used 74792928, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 51036192, used 74792928, increment 0
+Initial loss: 9.212238569259263
+100: time = 0.197000 loss = 8.695511
+Jackknife: leave bio_12 out
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 49803696, used 76025424, increment 1232496
+Gustavia_santanderiensis_7 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 49803696, used 76025424, increment 0
+linearPredictor: max memory 932184064, total allocated 125829120, free 49803696, used 76025424, increment 0
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 49803696, used 76025424, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 49803696, used 76025424, increment 0
+Initial loss: 9.212238569259263
+100: time = 0.214000 loss = 7.434138
+Jackknife: leave bio_14 out
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 48571200, used 77257920, increment 1232496
+Gustavia_santanderiensis_7 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 48571200, used 77257920, increment 0
+linearPredictor: max memory 932184064, total allocated 125829120, free 48571200, used 77257920, increment 0
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 48571200, used 77257920, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 48571200, used 77257920, increment 0
+Initial loss: 9.212238569259263
+Time since start: 105.646
+100: time = 0.207000 loss = 7.434284
+Jackknife: leave bio_15 out
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 47338704, used 78490416, increment 1232496
+Gustavia_santanderiensis_7 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 47338704, used 78490416, increment 0
+linearPredictor: max memory 932184064, total allocated 125829120, free 47338704, used 78490416, increment 0
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 47338704, used 78490416, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 47338704, used 78490416, increment 0
+Initial loss: 9.212238569259263
+100: time = 0.566000 loss = 8.368683
+Jackknife: leave bio_3 out
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 46106208, used 79722912, increment 1232496
+Gustavia_santanderiensis_7 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 46106208, used 79722912, increment 0
+linearPredictor: max memory 932184064, total allocated 125829120, free 46106208, used 79722912, increment 0
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 46106208, used 79722912, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 46106208, used 79722912, increment 0
+Initial loss: 9.212238569259263
+100: time = 0.250000 loss = 7.499391
+Jackknife: leave bio_4 out
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 44873712, used 80955408, increment 1232496
+Gustavia_santanderiensis_7 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 44873712, used 80955408, increment 0
+linearPredictor: max memory 932184064, total allocated 125829120, free 44873712, used 80955408, increment 0
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 44873712, used 80955408, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 44873712, used 80955408, increment 0
+Initial loss: 9.212238569259263
+Time since start: 106.737
+100: time = 0.257000 loss = 7.474990
+Jackknife: leave bio_7 out
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 43641216, used 82187904, increment 1232496
+Gustavia_santanderiensis_7 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 43641216, used 82187904, increment 0
+linearPredictor: max memory 932184064, total allocated 125829120, free 43641216, used 82187904, increment 0
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 43641216, used 82187904, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 43641216, used 82187904, increment 0
+Initial loss: 9.212238569259263
+120: time = 0.265000 loss = 7.434131
+Jackknife: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 43641216, used 82187904, increment 0
+Gustavia_santanderiensis_7 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 43641216, used 82187904, increment 0
+linearPredictor: max memory 932184064, total allocated 125829120, free 43641216, used 82187904, increment 0
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 43641216, used 82187904, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 43641216, used 82187904, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.253000 loss = 8.837748
+Res.gain: 0.3744901270940648
+Jackknife: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 43561048, used 82268072, increment 80168
+Gustavia_santanderiensis_7 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 1232496
+linearPredictor: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.191000 loss = 9.191373
+Res.gain: 0.02086573155341931
+Jackknife: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+Gustavia_santanderiensis_7 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+linearPredictor: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.229000 loss = 9.127148
+Res.gain: 0.08509087101634627
+Jackknife: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+Gustavia_santanderiensis_7 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+linearPredictor: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+Initial loss: 9.212238569259263
+Time since start: 107.902
+60: time = 0.208000 loss = 8.977962
+Res.gain: 0.234276637523811
+Jackknife: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+Gustavia_santanderiensis_7 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 42328552, used 83500568, increment 0
+linearPredictor: max memory 932184064, total allocated 125829120, free 42248384, used 83580736, increment 80168
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 42248384, used 83580736, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 42248384, used 83580736, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.173000 loss = 9.189155
+Res.gain: 0.023083564795301825
+Jackknife: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 41096032, used 84733088, increment 1152352
+Gustavia_santanderiensis_7 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 41096032, used 84733088, increment 0
+linearPredictor: max memory 932184064, total allocated 125829120, free 41096032, used 84733088, increment 0
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 41096032, used 84733088, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 41096032, used 84733088, increment 0
+Initial loss: 9.212238569259263
+20: time = 0.100000 loss = 9.212239
+Res.gain: 0.0
+Jackknife: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 41096032, used 84733088, increment 0
+Gustavia_santanderiensis_7 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 41096032, used 84733088, increment 0
+linearPredictor: max memory 932184064, total allocated 125829120, free 41096032, used 84733088, increment 0
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 41096032, used 84733088, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 41096032, used 84733088, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.221000 loss = 9.193954
+Res.gain: 0.0182844452123625
+getSamples: max memory 932184064, total allocated 125829120, free 37993976, used 87835144, increment 3102056
+Making features
+makeFeatures: max memory 932184064, total allocated 125829120, free 37513112, used 88316008, increment 480864
+Gustavia_santanderiensis_8: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 125829120, free 37432968, used 88396152, increment 80144
+linearPredictor: max memory 932184064, total allocated 125829120, free 37352824, used 88476296, increment 80144
+FeaturedSpace: max memory 932184064, total allocated 125829120, free 37352824, used 88476296, increment 0
+Sequential: max memory 932184064, total allocated 125829120, free 37352824, used 88476296, increment 0
+Initial loss: 9.211939093339879
+120: time = 0.239000 loss = 7.112211
+Resulting gain: 2.0997285824120713
+Time since start: 109.069
+Projecting...
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_8.asc
+Time since start: 110.616
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_8.png
+Gustavia_santanderiensis_8 response curves
+Time since start: 116.336
+Response curve: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 130547712, free 25470784, used 105076928, increment 16600632
+Gustavia_santanderiensis_8 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 130547712, free 25470784, used 105076928, increment 0
+linearPredictor: max memory 932184064, total allocated 130547712, free 25470784, used 105076928, increment 0
+FeaturedSpace: max memory 932184064, total allocated 130547712, free 25470784, used 105076928, increment 0
+Sequential: max memory 932184064, total allocated 130547712, free 25470784, used 105076928, increment 0
+Initial loss: 9.211939093339879
+60: time = 0.243000 loss = 8.872931
+Resulting gain: 0.33900853495637406
+Gustavia_santanderiensis_8 response curves
+Response curve: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 130547712, free 21997424, used 108550288, increment 3473360
+Gustavia_santanderiensis_8 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 130547712, free 21997424, used 108550288, increment 0
+linearPredictor: max memory 932184064, total allocated 130547712, free 21997424, used 108550288, increment 0
+FeaturedSpace: max memory 932184064, total allocated 130547712, free 21997424, used 108550288, increment 0
+Sequential: max memory 932184064, total allocated 130547712, free 21997424, used 108550288, increment 0
+Initial loss: 9.211939093339879
+60: time = 0.201000 loss = 9.186704
+Resulting gain: 0.025235419280958737
+Gustavia_santanderiensis_8 response curves
+Response curve: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 130547712, free 17648976, used 112898736, increment 4348448
+Gustavia_santanderiensis_8 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 130547712, free 17648976, used 112898736, increment 0
+linearPredictor: max memory 932184064, total allocated 130547712, free 17648976, used 112898736, increment 0
+FeaturedSpace: max memory 932184064, total allocated 130547712, free 17648976, used 112898736, increment 0
+Sequential: max memory 932184064, total allocated 130547712, free 17648976, used 112898736, increment 0
+Initial loss: 9.211939093339879
+Time since start: 117.771
+60: time = 0.660000 loss = 9.026001
+Resulting gain: 0.1859376846785974
+Gustavia_santanderiensis_8 response curves
+Response curve: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 88929056, used 55774432, increment -57124304
+Gustavia_santanderiensis_8 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 88929056, used 55774432, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 88929056, used 55774432, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 88929056, used 55774432, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 88929056, used 55774432, increment 0
+Initial loss: 9.211939093339879
+60: time = 0.381000 loss = 8.869377
+Resulting gain: 0.3425621078426069
+Gustavia_santanderiensis_8 response curves
+Response curve: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 84311928, used 60391560, increment 4617128
+Gustavia_santanderiensis_8 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 84311928, used 60391560, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 84311928, used 60391560, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 84311928, used 60391560, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 84311928, used 60391560, increment 0
+Initial loss: 9.211939093339879
+Time since start: 118.943
+60: time = 0.324000 loss = 9.195178
+Resulting gain: 0.016760817956292584
+Gustavia_santanderiensis_8 response curves
+Response curve: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 80273088, used 64430400, increment 4038840
+Gustavia_santanderiensis_8 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 80273088, used 64430400, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 80273088, used 64430400, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 80273088, used 64430400, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 80273088, used 64430400, increment 0
+Initial loss: 9.211939093339879
+20: time = 0.097000 loss = 9.211929
+Resulting gain: 1.022975271780524E-5
+Gustavia_santanderiensis_8 response curves
+Response curve: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 75639672, used 69063816, increment 4633416
+Gustavia_santanderiensis_8 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 75639672, used 69063816, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 75639672, used 69063816, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 75639672, used 69063816, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 75639672, used 69063816, increment 0
+Initial loss: 9.211939093339879
+Time since start: 119.946
+60: time = 0.308000 loss = 9.205992
+Resulting gain: 0.005947540520002903
+Gustavia_santanderiensis_8 response curves
+Time since start: 121.536
+Jackknife: leave bio_1 out
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 38816704, used 105886784, increment 36822968
+Gustavia_santanderiensis_8 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 38736560, used 105966928, increment 80144
+linearPredictor: max memory 932184064, total allocated 144703488, free 38656416, used 106047072, increment 80144
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 38656416, used 106047072, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 38656416, used 106047072, increment 0
+Initial loss: 9.211939093339879
+100: time = 0.404000 loss = 8.570424
+Jackknife: leave bio_12 out
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 37118176, used 107585312, increment 1538240
+Gustavia_santanderiensis_8 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 37118176, used 107585312, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 37118176, used 107585312, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 37118176, used 107585312, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 37118176, used 107585312, increment 0
+Initial loss: 9.211939093339879
+120: time = 0.352000 loss = 7.112211
+Jackknife: leave bio_14 out
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 36396880, used 108306608, increment 721296
+Gustavia_santanderiensis_8 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 34778544, used 109924944, increment 1618336
+linearPredictor: max memory 932184064, total allocated 144703488, free 34778544, used 109924944, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 34778544, used 109924944, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 34778544, used 109924944, increment 0
+Initial loss: 9.211939093339879
+Time since start: 122.56
+100: time = 0.243000 loss = 7.112211
+Jackknife: leave bio_15 out
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 34778544, used 109924944, increment 0
+Gustavia_santanderiensis_8 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 34778544, used 109924944, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 34778544, used 109924944, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 34778544, used 109924944, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 34778544, used 109924944, increment 0
+Initial loss: 9.211939093339879
+100: time = 0.222000 loss = 8.196203
+Jackknife: leave bio_3 out
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 33896960, used 110806528, increment 881584
+Gustavia_santanderiensis_8 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 33816816, used 110886672, increment 80144
+linearPredictor: max memory 932184064, total allocated 144703488, free 33736672, used 110966816, increment 80144
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 33736672, used 110966816, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 33736672, used 110966816, increment 0
+Initial loss: 9.211939093339879
+100: time = 0.308000 loss = 7.230159
+Jackknife: leave bio_4 out
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 32198480, used 112505008, increment 1538192
+Gustavia_santanderiensis_8 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 32198480, used 112505008, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 32198480, used 112505008, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 32198480, used 112505008, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 32198480, used 112505008, increment 0
+Initial loss: 9.211939093339879
+100: time = 0.211000 loss = 7.157308
+Jackknife: leave bio_7 out
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 31477184, used 113226304, increment 721296
+Gustavia_santanderiensis_8 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 31397040, used 113306448, increment 80144
+linearPredictor: max memory 932184064, total allocated 144703488, free 31316896, used 113386592, increment 80144
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 31316896, used 113386592, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 31316896, used 113386592, increment 0
+Initial loss: 9.211939093339879
+Time since start: 123.564
+120: time = 0.241000 loss = 7.116630
+Jackknife: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 1538224
+Gustavia_santanderiensis_8 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+Initial loss: 9.211939093339879
+60: time = 0.244000 loss = 8.872931
+Res.gain: 0.33900853495637406
+Jackknife: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+Gustavia_santanderiensis_8 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+Initial loss: 9.211939093339879
+60: time = 0.200000 loss = 9.186704
+Res.gain: 0.025235419280958737
+Jackknife: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+Gustavia_santanderiensis_8 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+Initial loss: 9.211939093339879
+60: time = 0.248000 loss = 9.026001
+Res.gain: 0.1859376846785974
+Jackknife: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+Gustavia_santanderiensis_8 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 29778672, used 114924816, increment 0
+Initial loss: 9.211939093339879
+60: time = 0.188000 loss = 8.869377
+Res.gain: 0.3425621078426069
+Jackknife: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 1538248
+Gustavia_santanderiensis_8 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 0
+Initial loss: 9.211939093339879
+Time since start: 124.735
+60: time = 0.256000 loss = 9.195178
+Res.gain: 0.016760817956292584
+Jackknife: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 0
+Gustavia_santanderiensis_8 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 0
+Initial loss: 9.211939093339879
+20: time = 0.085000 loss = 9.211929
+Res.gain: 1.022975271780524E-5
+Jackknife: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 0
+Gustavia_santanderiensis_8 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 28240424, used 116463064, increment 0
+Initial loss: 9.211939093339879
+60: time = 0.259000 loss = 9.205992
+Res.gain: 0.005947540520002903
+getSamples: max memory 932184064, total allocated 144703488, free 24371608, used 120331880, increment 3868816
+Making features
+makeFeatures: max memory 932184064, total allocated 144703488, free 24371608, used 120331880, increment 0
+Gustavia_santanderiensis_9: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 144703488, free 24371608, used 120331880, increment 0
+linearPredictor: max memory 932184064, total allocated 144703488, free 24371608, used 120331880, increment 0
+FeaturedSpace: max memory 932184064, total allocated 144703488, free 24371608, used 120331880, increment 0
+Sequential: max memory 932184064, total allocated 144703488, free 24371608, used 120331880, increment 0
+Initial loss: 9.212238569259263
+100: time = 0.225000 loss = 7.229284
+Resulting gain: 1.9829549126133879
+Time since start: 125.781
+Projecting...
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_9.asc
+Time since start: 127.561
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_9.png
+Gustavia_santanderiensis_9 response curves
+Time since start: 130.484
+Response curve: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 134742016, free 16749376, used 117992640, increment -2339240
+Gustavia_santanderiensis_9 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 134742016, free 16749376, used 117992640, increment 0
+linearPredictor: max memory 932184064, total allocated 134742016, free 16669208, used 118072808, increment 80168
+FeaturedSpace: max memory 932184064, total allocated 134742016, free 16669208, used 118072808, increment 0
+Sequential: max memory 932184064, total allocated 134742016, free 16669208, used 118072808, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.277000 loss = 8.796415
+Resulting gain: 0.4158237003630969
+Gustavia_santanderiensis_9 response curves
+Response curve: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 134742016, free 12117536, used 122624480, increment 4551672
+Gustavia_santanderiensis_9 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 134742016, free 12117536, used 122624480, increment 0
+linearPredictor: max memory 932184064, total allocated 134742016, free 12117536, used 122624480, increment 0
+FeaturedSpace: max memory 932184064, total allocated 134742016, free 12117536, used 122624480, increment 0
+Sequential: max memory 932184064, total allocated 134742016, free 12117536, used 122624480, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.247000 loss = 9.157271
+Resulting gain: 0.05496798113996881
+Gustavia_santanderiensis_9 response curves
+Response curve: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 137363456, free 77139248, used 60224208, increment -62400272
+Gustavia_santanderiensis_9 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 137363456, free 77059080, used 60304376, increment 80168
+linearPredictor: max memory 932184064, total allocated 137363456, free 76978912, used 60384544, increment 80168
+FeaturedSpace: max memory 932184064, total allocated 137363456, free 76978912, used 60384544, increment 0
+Sequential: max memory 932184064, total allocated 137363456, free 76978912, used 60384544, increment 0
+Initial loss: 9.212238569259263
+Time since start: 131.651
+60: time = 0.236000 loss = 9.093658
+Resulting gain: 0.11858072558219312
+Gustavia_santanderiensis_9 response curves
+Response curve: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 137363456, free 71791712, used 65571744, increment 5187200
+Gustavia_santanderiensis_9 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 137363456, free 71791712, used 65571744, increment 0
+linearPredictor: max memory 932184064, total allocated 137363456, free 71791712, used 65571744, increment 0
+FeaturedSpace: max memory 932184064, total allocated 137363456, free 71791712, used 65571744, increment 0
+Sequential: max memory 932184064, total allocated 137363456, free 71791712, used 65571744, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.237000 loss = 8.948432
+Resulting gain: 0.2638067853881285
+Gustavia_santanderiensis_9 response curves
+Time since start: 132.81
+Response curve: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 137363456, free 68234512, used 69128944, increment 3557200
+Gustavia_santanderiensis_9 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 137363456, free 68234512, used 69128944, increment 0
+linearPredictor: max memory 932184064, total allocated 137363456, free 68234512, used 69128944, increment 0
+FeaturedSpace: max memory 932184064, total allocated 137363456, free 68234512, used 69128944, increment 0
+Sequential: max memory 932184064, total allocated 137363456, free 68234512, used 69128944, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.236000 loss = 9.152244
+Resulting gain: 0.05999494380526471
+Gustavia_santanderiensis_9 response curves
+Response curve: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 137363456, free 63381104, used 73982352, increment 4853408
+Gustavia_santanderiensis_9 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 137363456, free 63381104, used 73982352, increment 0
+linearPredictor: max memory 932184064, total allocated 137363456, free 63381104, used 73982352, increment 0
+FeaturedSpace: max memory 932184064, total allocated 137363456, free 63381104, used 73982352, increment 0
+Sequential: max memory 932184064, total allocated 137363456, free 63381104, used 73982352, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.294000 loss = 9.210230
+Resulting gain: 0.0020085586139035883
+Gustavia_santanderiensis_9 response curves
+Response curve: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 137363456, free 58520480, used 78842976, increment 4860624
+Gustavia_santanderiensis_9 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 137363456, free 58520480, used 78842976, increment 0
+linearPredictor: max memory 932184064, total allocated 137363456, free 58520480, used 78842976, increment 0
+FeaturedSpace: max memory 932184064, total allocated 137363456, free 58520480, used 78842976, increment 0
+Sequential: max memory 932184064, total allocated 137363456, free 58520480, used 78842976, increment 0
+Initial loss: 9.212238569259263
+Time since start: 134.09
+60: time = 0.313000 loss = 9.209684
+Resulting gain: 0.0025544373710868484
+Gustavia_santanderiensis_9 response curves
+Jackknife: leave bio_1 out
+Making features
+makeFeatures: max memory 932184064, total allocated 137363456, free 22236848, used 115126608, increment 36283632
+Gustavia_santanderiensis_9 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 137363456, free 22156680, used 115206776, increment 80168
+linearPredictor: max memory 932184064, total allocated 137363456, free 22076512, used 115286944, increment 80168
+FeaturedSpace: max memory 932184064, total allocated 137363456, free 22076512, used 115286944, increment 0
+Sequential: max memory 932184064, total allocated 137363456, free 22076512, used 115286944, increment 0
+Initial loss: 9.212238569259263
+Time since start: 135.138
+100: time = 0.274000 loss = 8.653672
+Jackknife: leave bio_12 out
+Making features
+makeFeatures: max memory 932184064, total allocated 137363456, free 20780336, used 116583120, increment 1296176
+Gustavia_santanderiensis_9 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 137363456, free 20780336, used 116583120, increment 0
+linearPredictor: max memory 932184064, total allocated 137363456, free 20780336, used 116583120, increment 0
+FeaturedSpace: max memory 932184064, total allocated 137363456, free 20780336, used 116583120, increment 0
+Sequential: max memory 932184064, total allocated 137363456, free 20780336, used 116583120, increment 0
+Initial loss: 9.212238569259263
+100: time = 0.233000 loss = 7.229284
+Jackknife: leave bio_14 out
+Making features
+makeFeatures: max memory 932184064, total allocated 137363456, free 19403992, used 117959464, increment 1376344
+Gustavia_santanderiensis_9 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 137363456, free 19403992, used 117959464, increment 0
+linearPredictor: max memory 932184064, total allocated 137363456, free 19403992, used 117959464, increment 0
+FeaturedSpace: max memory 932184064, total allocated 137363456, free 19403992, used 117959464, increment 0
+Sequential: max memory 932184064, total allocated 137363456, free 19403992, used 117959464, increment 0
+Initial loss: 9.212238569259263
+100: time = 0.234000 loss = 7.229284
+Jackknife: leave bio_15 out
+Making features
+makeFeatures: max memory 932184064, total allocated 137363456, free 18522144, used 118841312, increment 881848
+Gustavia_santanderiensis_9 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 137363456, free 18441976, used 118921480, increment 80168
+linearPredictor: max memory 932184064, total allocated 137363456, free 18361808, used 119001648, increment 80168
+FeaturedSpace: max memory 932184064, total allocated 137363456, free 18361808, used 119001648, increment 0
+Sequential: max memory 932184064, total allocated 137363456, free 18361808, used 119001648, increment 0
+Initial loss: 9.212238569259263
+100: time = 0.259000 loss = 8.206541
+Jackknife: leave bio_3 out
+Making features
+makeFeatures: max memory 932184064, total allocated 137363456, free 17065512, used 120297944, increment 1296296
+Gustavia_santanderiensis_9 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 137363456, free 17065512, used 120297944, increment 0
+linearPredictor: max memory 932184064, total allocated 137363456, free 17065512, used 120297944, increment 0
+FeaturedSpace: max memory 932184064, total allocated 137363456, free 17065512, used 120297944, increment 0
+Sequential: max memory 932184064, total allocated 137363456, free 17065512, used 120297944, increment 0
+Initial loss: 9.212238569259263
+80: time = 0.230000 loss = 7.290124
+Jackknife: leave bio_4 out
+Making features
+makeFeatures: max memory 932184064, total allocated 131072000, free 73354112, used 57717888, increment -62580056
+Gustavia_santanderiensis_9 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131072000, free 73354112, used 57717888, increment 0
+linearPredictor: max memory 932184064, total allocated 131072000, free 73354112, used 57717888, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131072000, free 73354112, used 57717888, increment 0
+Sequential: max memory 932184064, total allocated 131072000, free 73354112, used 57717888, increment 0
+Initial loss: 9.212238569259263
+Time since start: 136.386
+100: time = 0.251000 loss = 7.268461
+Jackknife: leave bio_7 out
+Making features
+makeFeatures: max memory 932184064, total allocated 131072000, free 73113608, used 57958392, increment 240504
+Gustavia_santanderiensis_9 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 1325712
+linearPredictor: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+Sequential: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+Initial loss: 9.212238569259263
+100: time = 0.358000 loss = 7.234041
+Jackknife: only bio_1
+Making features
+makeFeatures: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+Gustavia_santanderiensis_9 bio_1: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+linearPredictor: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+Sequential: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.267000 loss = 8.796415
+Res.gain: 0.4158237003630969
+Jackknife: only bio_12
+Making features
+makeFeatures: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+Gustavia_santanderiensis_9 bio_12: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+linearPredictor: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+Sequential: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.211000 loss = 9.157271
+Res.gain: 0.05496798113996881
+Jackknife: only bio_14
+Making features
+makeFeatures: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+Gustavia_santanderiensis_9 bio_14: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+linearPredictor: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131072000, free 71787896, used 59284104, increment 0
+Sequential: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 1245776
+Initial loss: 9.212238569259263
+Time since start: 137.45
+60: time = 0.207000 loss = 9.093658
+Res.gain: 0.11858072558219312
+Jackknife: only bio_15
+Making features
+makeFeatures: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+Gustavia_santanderiensis_9 bio_15: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+linearPredictor: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+Sequential: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.222000 loss = 8.948432
+Res.gain: 0.2638067853881285
+Jackknife: only bio_3
+Making features
+makeFeatures: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+Gustavia_santanderiensis_9 bio_3: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+linearPredictor: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+Sequential: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.188000 loss = 9.152244
+Res.gain: 0.05999494380526471
+Jackknife: only bio_4
+Making features
+makeFeatures: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+Gustavia_santanderiensis_9 bio_4: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+linearPredictor: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+FeaturedSpace: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+Sequential: max memory 932184064, total allocated 131072000, free 70542120, used 60529880, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.271000 loss = 9.210230
+Res.gain: 0.0020085586139035883
+Jackknife: only bio_7
+Making features
+makeFeatures: max memory 932184064, total allocated 131072000, free 70381784, used 60690216, increment 160336
+Gustavia_santanderiensis_9 bio_7: 
+Regularization values: linear/quadratic/product: 0.423, categorical: 0.250, threshold: 1.790, hinge: 0.500
+21 samples
+Density: max memory 932184064, total allocated 131072000, free 70301616, used 60770384, increment 80168
+linearPredictor: max memory 932184064, total allocated 131072000, free 70221448, used 60850552, increment 80168
+FeaturedSpace: max memory 932184064, total allocated 131072000, free 70221448, used 60850552, increment 0
+Sequential: max memory 932184064, total allocated 131072000, free 70221448, used 60850552, increment 0
+Initial loss: 9.212238569259263
+60: time = 0.245000 loss = 9.209684
+Res.gain: 0.0025544373710868484
+Time since start: 139.089
+Creating average grid, stddev grid etc.
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_avg.asc
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_stddev.asc
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_min.asc
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_max.asc
+Writing file C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\Gustavia_santanderiensis_median.asc
+Time since start: 146.428
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_avg.png
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_stddev.png
+Time since start: 147.789
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_min.png
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_max.png
+Time since start: 148.987
+Writing C:\Users\Camila\Desktop\Modelo opc2\Final_Models\M_0.8_F_q_Set_1\plots\Gustavia_santanderiensis_median.png
+Gustavia_santanderiensis average response curves
+Time since start: 155.395
+Ending

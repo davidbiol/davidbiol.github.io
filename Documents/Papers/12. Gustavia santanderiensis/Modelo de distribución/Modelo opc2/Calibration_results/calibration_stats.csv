@@ -1,0 +1,8 @@
+"Criteria","Number of models"
+"All candidate models",98
+"Statistically significant models",98
+"Models meeting omission rate criteria",98
+"Models meeting AICc criteria",7
+"Statistically significant models meeting omission rate criteria",98
+"Statistically significant models meeting AICc criteria",7
+"Statistically significant models meeting omission rate and AICc criteria",7
